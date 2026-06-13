@@ -22,11 +22,13 @@ jobs:
           RESPONSE=$(curl -s "https://zenquotes.io/api/random")
           QUOTE=$(echo "$RESPONSE" | jq -r '.[0].q')
           AUTHOR=$(echo "$RESPONSE" | jq -r '.[0].a')
-          DATE=$(date -u '+%Y-%m-%d')
 
-          printf "## %s\n\n> %s\n\n— %s\n\n" "$DATE" "$QUOTE" "$AUTHOR" >> quotes.md
+          EXISTING=$(grep -c "^- Day" README.md 2>/dev/null || echo 0)
+          DAY=$((EXISTING + 3))
 
-          git add quotes.md
-          git commit -m "\"$QUOTE\" — $AUTHOR"
+          echo "- Day $DAY - \"$QUOTE\" — $AUTHOR" >> README.md
+
+          git add README.md
+          git commit -m "Day $DAY: \"$QUOTE\" — $AUTHOR"
           git pull --rebase origin main
           git push
