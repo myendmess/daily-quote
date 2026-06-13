@@ -19,6 +19,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           echo "$(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> log.txt
-          git add log.txt
+          git add -f log.txt
           git commit -m "chore: daily update $(date -u '+%Y-%m-%d')"
           git push
