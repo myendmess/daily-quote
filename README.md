@@ -1,6 +1,12 @@
 # daily quote 
 
 
+## 2026-06-15
+
+> The highest level of wisdom is when you not only accept but love adversity.
+
+— Maxime Lagace
+
 ## 2026-06-14
 
 > Do good by stealth, and blush to find it fame.
