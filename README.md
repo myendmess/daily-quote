@@ -1,6 +1,12 @@
 # daily quote 
 
 
+## 2026-06-18
+
+> Gratitude is the fairest blossom which springs from the soul.
+
+— Henry Ward Beecher
+
 ## 2026-06-17
 
 > If fear is too strong, the genius is suppressed.
