@@ -1,6 +1,12 @@
 # daily quote 
 
 
+## 2026-06-19
+
+> We forge the chains we wear in life.
+
+— Charles Dickens
+
 ## 2026-06-18
 
 > Gratitude is the fairest blossom which springs from the soul.
