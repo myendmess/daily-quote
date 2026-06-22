@@ -1,6 +1,12 @@
 # daily quote 
 
 
+## 2026-06-22
+
+> You're braver than you believe, and stronger than you seem, and smarter than you think.
+
+— A.A. Milne
+
 ## 2026-06-21
 
 > The spirit is beyond destruction. No one can bring an end to spirit which is everlasting.
