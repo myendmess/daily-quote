@@ -1,6 +1,12 @@
 # daily quote 
 
 
+## 2026-06-26
+
+> Everything is possible. The impossible just takes longer.
+
+— Dan Brown
+
 ## 2026-06-25
 
 > To share your weakness is to make yourself vulnerable; to make yourself vulnerable is to show your strength.
