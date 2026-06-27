@@ -1,6 +1,12 @@
 # daily quote 
 
 
+## 2026-06-27
+
+> By failing to prepare, you are preparing to fail.
+
+— Benjamin Franklin
+
 ## 2026-06-26
 
 > Everything is possible. The impossible just takes longer.
