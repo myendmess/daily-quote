@@ -1,6 +1,12 @@
 # daily quote 
 
 
+## 2026-06-28
+
+> You don't get in life what you want; you get in life what you are.
+
+— Les Brown
+
 ## 2026-06-27
 
 > By failing to prepare, you are preparing to fail.
