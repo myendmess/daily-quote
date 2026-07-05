@@ -3,6 +3,12 @@
 
 ## 2026-07-05
 
+> Conquer the devils with a little thing called love.
+
+— Bob Marley
+
+## 2026-07-05
+
 > Bad things are not the worst things that an happen to us. NOTHING is the worst thing that can happen to us.
 
 — Richard Bach
