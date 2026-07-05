@@ -1,6 +1,12 @@
 # daily quote 
 
 
+## 2026-07-05
+
+> Others can stop you temporarily - you are the only one who can do it permanently.
+
+— Zig Ziglar
+
 ## 2026-07-04
 
 > Your vision will become clear only when you can look into your own heart.
