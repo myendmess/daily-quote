@@ -68,20 +68,18 @@ day = playlist_total(youtube, playlist_id) + 1
 counter = f"{to_kanji(day)}日"
 print(f"Day {day} -> {counter}")
 
-# YouTube titles: max 100 chars, no "<" or ">".
-prefix = f"{counter}｜"
-suffix = " #Shorts"
-body = f'"{quote}" — {author}'.replace("<", "").replace(">", "")
-budget = 100 - len(prefix) - len(suffix)
-if len(body) > budget:
-    body = body[: budget - 1] + "…"
-title = f"{prefix}{body}{suffix}"
+# Title is just the Japanese day counter (e.g. 二日).
+title = counter
 
+# Description carries the quote, credits, music links, and hashtags.
+# YouTube rejects "<"/">" in the description, so keep it to plain text/links.
 description = (
-    f"{counter}\n\n"
     f'"{quote}"\n\n— {author}\n\n'
+    "🎵 Music: my&mess — Vespero\n"
+    "Spotify: https://open.spotify.com/track/4gkoPoIoutHkQAWqAExHIj\n"
+    "YouTube: https://youtu.be/vCGCdhOoUL4\n\n"
     "#motivation #quotes #shorts #daily #inspiration"
-)
+).replace("<", "").replace(">", "")
 
 print("Uploading video...")
 request = youtube.videos().insert(
