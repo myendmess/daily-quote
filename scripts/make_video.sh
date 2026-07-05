@@ -43,11 +43,14 @@ fi
 if [ ${#tracks[@]} -gt 0 ]; then
   track="${tracks[RANDOM % ${#tracks[@]}]}"
   echo "Music: $track"
+  # Record which track was used so upload_youtube.py can credit it (music.json).
+  basename "$track" > track.txt
   audio_in=(-i "$track")
   af=(-af "afade=t=out:st=$((DUR-2)):d=2")
   acodec=(-c:a aac -b:a 192k)
 else
   echo "No music — silent audio."
+  : > track.txt
   audio_in=(-f lavfi -i "anullsrc=channel_layout=stereo:sample_rate=44100")
   af=()
   acodec=(-c:a aac)

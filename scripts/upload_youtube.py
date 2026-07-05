@@ -7,6 +7,7 @@ Reads quote.txt / author.txt for the title & description, and these env vars
 The title is prefixed with an incrementing Japanese day counter (一日, 二日, …)
 derived from the number of videos already in the playlist.
 """
+import json
 import os
 
 from google.oauth2.credentials import Credentials
@@ -46,6 +47,28 @@ def playlist_total(youtube, playlist_id):
     return resp.get("pageInfo", {}).get("totalResults", 0)
 
 
+def music_credit():
+    """Music credit block for whichever track make_video.sh used.
+
+    Reads track.txt (the chosen .mp3 basename) and looks it up in music.json.
+    Returns '' when the track is unknown or the manifest is missing, so an
+    upload never fails just because the credit could not be built."""
+    try:
+        track = read("track.txt")
+        with open("music.json", encoding="utf-8") as f:
+            meta = json.load(f).get("tracks", {}).get(track)
+    except (FileNotFoundError, ValueError):
+        return ""
+    if not meta:
+        return ""
+    lines = [f'🎵 Music: {meta["artist"]} — {meta["name"]}']
+    if meta.get("spotify_track_id"):
+        lines.append(f'Spotify: https://open.spotify.com/track/{meta["spotify_track_id"]}')
+    if meta.get("youtube_id"):
+        lines.append(f'YouTube: https://youtu.be/{meta["youtube_id"]}')
+    return "\n".join(lines) + "\n\n"
+
+
 quote = read("quote.txt")
 author = read("author.txt")
 
@@ -68,17 +91,22 @@ day = playlist_total(youtube, playlist_id) + 1
 counter = f"{to_kanji(day)}日"
 print(f"Day {day} -> {counter}")
 
-# Title is just the Japanese day counter (e.g. 二日).
-title = counter
+# Title mirrors the format of the short that performed well (100+ views):
+#   二日｜"<quote>" — <author> #Shorts   (YouTube caps titles at 100 chars, no "<"/">").
+prefix = f"{counter}｜"
+suffix = " #Shorts"
+body = f'"{quote}" — {author}'.replace("<", "").replace(">", "")
+budget = 100 - len(prefix) - len(suffix)
+if len(body) > budget:
+    body = body[: budget - 1] + "…"
+title = f"{prefix}{body}{suffix}"
 
 # Description carries the quote, credits, music links, and hashtags.
 # YouTube rejects "<"/">" in the description, so keep it to plain text/links.
 description = (
     f'"{quote}"\n\n— {author}\n\n'
-    "🎵 Music: my&mess — Vespero\n"
-    "Spotify: https://open.spotify.com/track/4gkoPoIoutHkQAWqAExHIj\n"
-    "YouTube: https://youtu.be/vCGCdhOoUL4\n\n"
-    "#motivation #quotes #shorts #daily #inspiration"
+    + music_credit()
+    + "#motivation #quotes #shorts #daily #inspiration"
 ).replace("<", "").replace(">", "")
 
 print("Uploading video...")

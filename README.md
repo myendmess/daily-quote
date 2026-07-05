@@ -1,5 +1,25 @@
-# daily quote 
+# Daily Quote
 
+**A fresh motivational quote committed here every morning — and auto-published as a vertical YouTube Short set to the *Vespero* soundtrack.**
+
+<p align="center">
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/github/license/myendmess/daily-quote?color=blue"></a>
+  <a href="https://github.com/myendmess/daily-quote/actions/workflows/blank.yml"><img alt="Daily Quote workflow" src="https://img.shields.io/github/actions/workflow/status/myendmess/daily-quote/blank.yml?label=daily%20quote&logo=githubactions&logoColor=white"></a>
+</p>
+
+<p align="center">
+  <a href="https://myendmess.github.io/daily-quote/"><img alt="Landing page" src="https://img.shields.io/badge/GitHub%20Pages-live-fbbf24?logo=googlechrome&logoColor=black"></a>
+  <a href="https://www.youtube.com/playlist?list=PLNiOPtRmph_w"><img alt="Motivational playlist" src="https://img.shields.io/badge/YouTube-motivational%20playlist-red?logo=youtube&logoColor=white"></a>
+  <a href="https://open.spotify.com/track/4gkoPoIoutHkQAWqAExHIj"><img alt="Vespero on Spotify" src="https://img.shields.io/badge/Spotify-Vespero-1DB954?logo=spotify&logoColor=white"></a>
+</p>
+
+<p align="center">
+  <a href="https://myendmess.github.io/daily-quote/"><b>Landing page</b></a> ·
+  <a href="https://www.youtube.com/playlist?list=PLNiOPtRmph_w"><b>Motivational Playlist</b></a> ·
+  <a href="https://open.spotify.com/track/4gkoPoIoutHkQAWqAExHIj"><b>Vespero on Spotify</b></a>
+</p>
+
+---
 
 ## 2026-07-05
 

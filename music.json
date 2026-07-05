@@ -1,0 +1,12 @@
+{
+  "_help": "Add a track: drop its .mp3 in assets/music/, add an entry under \"tracks\" keyed by the exact .mp3 filename, then set \"featured\" to the track the landing page should show. make_video.sh credits whichever track it randomly used; index.html embeds the featured one.",
+  "featured": "vespero.mp3",
+  "tracks": {
+    "vespero.mp3": {
+      "name": "Vespero",
+      "artist": "my&mess",
+      "youtube_id": "vCGCdhOoUL4",
+      "spotify_track_id": "4gkoPoIoutHkQAWqAExHIj"
+    }
+  }
+}

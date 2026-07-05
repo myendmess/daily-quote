@@ -5,6 +5,7 @@ quote.txt
 author.txt
 quote_wrapped.txt
 author_line.txt
+track.txt
 out.mp4
 
 # OAuth secrets — never commit

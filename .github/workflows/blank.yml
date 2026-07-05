@@ -56,7 +56,7 @@ jobs:
             echo "ready=true" >> "$GITHUB_OUTPUT"
           else
             echo "ready=false" >> "$GITHUB_OUTPUT"
-            echo "::notice::YouTube secrets not set — skipping video. See SETUP.md."
+            echo "::notice::YouTube secrets not set — skipping video."
           fi
 
       - name: Render video
