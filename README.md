@@ -21,6 +21,12 @@
 
 ---
 
+## 2026-07-07
+
+> Cease striving. Then there will be transformation.
+
+— Zhuangzi
+
 ## 2026-07-06
 
 > A good system shortens the road to the goal.
