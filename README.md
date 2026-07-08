@@ -21,6 +21,12 @@
 
 ---
 
+## 2026-07-08
+
+> Hardly anybody recognizes the most significant moments of their life at the time they happen.
+
+— W.P. Kinsella
+
 ## 2026-07-07
 
 > Cease striving. Then there will be transformation.
