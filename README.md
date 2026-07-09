@@ -21,6 +21,12 @@
 
 ---
 
+## 2026-07-09
+
+> Someone is sitting in the shade today because someone planted a tree a long time ago.
+
+— Warren Buffett
+
 ## 2026-07-08
 
 > Hardly anybody recognizes the most significant moments of their life at the time they happen.
