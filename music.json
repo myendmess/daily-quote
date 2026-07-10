@@ -1,5 +1,5 @@
 {
-  "_help": "Add a track: drop its .mp3 in assets/music/, add an entry under \"tracks\" keyed by the exact .mp3 filename, then set \"featured\" to the track the landing page should show. make_video.sh credits whichever track it randomly used; index.html embeds the featured one.",
+  "_help": "Add a track: drop its .mp3 in assets/music/, add an entry under \"tracks\" keyed by the exact .mp3 filename, then set \"featured\" to the track the landing page should show. make_video.sh credits whichever track it randomly used; index.html embeds the featured one. Optional per-track \"start_at\" (seconds) makes the Short's audio begin at that point in the song.",
   "featured": "vespero.mp3",
   "tracks": {
     "vespero.mp3": {
@@ -7,6 +7,18 @@
       "artist": "my&mess",
       "youtube_id": "vCGCdhOoUL4",
       "spotify_track_id": "3T4WZ84ukDuik3TAlz6HCX"
+    },
+    "my&mess - Ash & Blade.mp3": {
+      "name": "Ash & Blade",
+      "artist": "my&mess",
+      "spotify_track_id": "28PrGwDWg7KlWsVoIiOP8e",
+      "start_at": 159
+    },
+    "my&mess - Neon.mp3": {
+      "name": "Neon",
+      "artist": "my&mess",
+      "spotify_track_id": "7o1qmANTwK2Xl1Ngea8ReV",
+      "start_at": 30
     }
   }
 }

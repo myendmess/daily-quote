@@ -1,6 +1,6 @@
 # Daily Quote
 
-**A fresh motivational quote committed here every morning — and auto-published as a vertical YouTube Short set to the *Vespero* soundtrack.**
+**A fresh motivational quote committed here every morning — and auto-published as a vertical YouTube Short set to a my&mess track.**
 
 <p align="center">
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/github/license/myendmess/daily-quote?color=blue"></a>
@@ -19,15 +19,15 @@
   <a href="https://open.spotify.com/track/3T4WZ84ukDuik3TAlz6HCX"><b>Vespero on Spotify</b></a>
 </p>
 
-### Adding a new song (website only)
+### Adding a new song
 
-New music goes on the landing page as a Spotify embed — never into the Shorts.
+New music can go on the landing page (Spotify embed), into the daily-Short rotation, or both.
 
-- **Song is on the album?** Nothing to do — the album embed in `index.html` shows it automatically.
-- **New single/EP?** In Spotify: Share → Embed, copy the `src` URL. Duplicate the `// the album` section in `index.html` and swap in the new URL (keep `?utm_source=generator`, drop any `&si=` token).
-- **Changing the featured track** (top card): edit `music.json` — but read the warnings first.
-- ⚠️ **Do NOT drop the `.mp3` into `assets/music/`.** `make_video.sh` scores each Short with a *random* `.mp3` from that folder. `vespero.mp3` must remain the only file there, or new songs will leak into the Shorts.
-- ⚠️ `music.json` `tracks` entries are keyed by filenames in `assets/music/` and drive the Short credits — only add entries for songs meant to score Shorts.
+- **Website — song is on the album?** Nothing to do — the album embed in `index.html` shows it automatically.
+- **Website — new single/EP?** In Spotify: Share → Embed, copy the `src` URL. Duplicate the `// the album` section in `index.html` and swap in the new URL (keep `?utm_source=generator`, drop any `&si=` token).
+- **Website — changing the featured track** (top card): edit `featured` in `music.json`.
+- **Shorts rotation:** drop the `.mp3` into `assets/music/` *only if* it should score Shorts — `make_video.sh` picks a random `.mp3` from that folder each day. Then add a `music.json` `tracks` entry keyed by the **exact filename** (`name`, `artist`, optional `spotify_track_id`/`youtube_id`) so the Short's description credits it.
+- **Start mid-song:** optional `"start_at"` (seconds) in a track's entry makes the Short's audio begin there — e.g. Ash & Blade uses `159` (= 2:39).
 
 ### Adding a new Short background
 

@@ -45,7 +45,15 @@ if [ ${#tracks[@]} -gt 0 ]; then
   echo "Music: $track"
   # Record which track was used so upload_youtube.py can credit it (music.json).
   basename "$track" > track.txt
-  audio_in=(-i "$track")
+  # Optional per-track start offset in seconds (music.json "start_at"); 0/absent = from the top.
+  start=$(jq -r --arg t "$(basename "$track")" '.tracks[$t].start_at // 0' music.json 2>/dev/null) || start=0
+  case "$start" in ''|*[!0-9]*) start=0 ;; esac  # digits only — anything odd falls back to 0
+  if [ "$start" -gt 0 ]; then
+    echo "Music starts at ${start}s"
+    audio_in=(-ss "$start" -i "$track")
+  else
+    audio_in=(-i "$track")
+  fi
   af=(-af "afade=t=out:st=$((DUR-2)):d=2")
   acodec=(-c:a aac -b:a 192k)
 else
