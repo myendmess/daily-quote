@@ -10,14 +10,32 @@
 <p align="center">
   <a href="https://myendmess.github.io/daily-quote/"><img alt="Landing page" src="https://img.shields.io/badge/GitHub%20Pages-live-fbbf24?logo=googlechrome&logoColor=black"></a>
   <a href="https://www.youtube.com/playlist?list=PLNiOPtRmph_w"><img alt="Motivational playlist" src="https://img.shields.io/badge/YouTube-motivational%20playlist-red?logo=youtube&logoColor=white"></a>
-  <a href="https://open.spotify.com/track/4gkoPoIoutHkQAWqAExHIj"><img alt="Vespero on Spotify" src="https://img.shields.io/badge/Spotify-Vespero-1DB954?logo=spotify&logoColor=white"></a>
+  <a href="https://open.spotify.com/track/3T4WZ84ukDuik3TAlz6HCX"><img alt="Vespero on Spotify" src="https://img.shields.io/badge/Spotify-Vespero-1DB954?logo=spotify&logoColor=white"></a>
 </p>
 
 <p align="center">
   <a href="https://myendmess.github.io/daily-quote/"><b>Landing page</b></a> ·
   <a href="https://www.youtube.com/playlist?list=PLNiOPtRmph_w"><b>Motivational Playlist</b></a> ·
-  <a href="https://open.spotify.com/track/4gkoPoIoutHkQAWqAExHIj"><b>Vespero on Spotify</b></a>
+  <a href="https://open.spotify.com/track/3T4WZ84ukDuik3TAlz6HCX"><b>Vespero on Spotify</b></a>
 </p>
+
+### Adding a new song (website only)
+
+New music goes on the landing page as a Spotify embed — never into the Shorts.
+
+- **Song is on the album?** Nothing to do — the album embed in `index.html` shows it automatically.
+- **New single/EP?** In Spotify: Share → Embed, copy the `src` URL. Duplicate the `// the album` section in `index.html` and swap in the new URL (keep `?utm_source=generator`, drop any `&si=` token).
+- **Changing the featured track** (top card): edit `music.json` — but read the warnings first.
+- ⚠️ **Do NOT drop the `.mp3` into `assets/music/`.** `make_video.sh` scores each Short with a *random* `.mp3` from that folder. `vespero.mp3` must remain the only file there, or new songs will leak into the Shorts.
+- ⚠️ `music.json` `tracks` entries are keyed by filenames in `assets/music/` and drive the Short credits — only add entries for songs meant to score Shorts.
+
+### Adding a new Short background
+
+- Drop a `.mp4` into `assets/backgrounds/` — one is picked at random per Short.
+- Any length works (it loops); it's center-cropped to 1080×1920 and darkened 35% for text legibility, so calm, low-detail footage reads best.
+- Have a **pic** instead of a clip? Convert it first:
+  `ffmpeg -loop 1 -i pic.jpg -t 15 -r 30 -vf "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920" -pix_fmt yuv420p assets/backgrounds/pic.mp4`
+- Note for this section only: keep headings at `###` level — the daily workflow inserts each new quote above the first `## ` heading in this file.
 
 ---
 

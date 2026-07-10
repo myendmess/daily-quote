@@ -6,11 +6,11 @@
   <meta name="color-scheme" content="dark">
   <meta name="theme-color" content="#060910">
 
-  <title>Daily Quote · myendmess</title>
+  <title>Motivational Blog · messlog</title>
   <meta name="description" content="A fresh motivational quote every morning, published as a vertical YouTube Short set to my own soundtrack.">
   <link rel="canonical" href="https://myendmess.github.io/daily-quote/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Daily Quote · myendmess">
+  <meta property="og:title" content="Motivational Blog · messlog">
   <meta property="og:description" content="A fresh motivational quote every morning, published as a vertical YouTube Short set to my own soundtrack.">
   <meta property="og:url" content="https://myendmess.github.io/daily-quote/">
 
@@ -172,7 +172,7 @@
   <div class="container">
     <span class="brand">
       <span class="brand__mark">M</span>
-      <span class="brand__name">myendmess</span>
+      <span class="brand__name">messlog</span>
     </span>
 
     <header class="hero">
@@ -180,7 +180,7 @@
         <span class="status-dot"></span>
         side project · quotes &amp; music
       </p>
-      <h1 class="hero__title">Daily <span class="grad">Quote</span></h1>
+      <h1 class="hero__title">Motivational <span class="grad">Blog</span></h1>
       <p class="hero__lede">
         Every morning, a fresh motivational quote becomes a vertical Short —
         calm footage, scored with <strong>my own music</strong>.
@@ -196,7 +196,7 @@
         <div class="video">
           <iframe
             id="yt-embed"
-            src="https://www.youtube-nocookie.com/embed/vCGCdhOoUL4"
+            src="https://www.youtube.com/embed/vCGCdhOoUL4"
             title="my&amp;mess — Vespero"
             loading="lazy"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -212,8 +212,21 @@
         <iframe
           id="sp-embed"
           class="spotify"
-          src="https://open.spotify.com/embed/track/4gkoPoIoutHkQAWqAExHIj?utm_source=generator"
+          src="https://open.spotify.com/embed/track/3T4WZ84ukDuik3TAlz6HCX?utm_source=generator"
           width="100%" height="152" frameborder="0"
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy" allowfullscreen></iframe>
+      </section>
+
+      <section class="glass card">
+        <span class="card__kicker">// the album</span>
+        <h2 class="card__title">The full album</h2>
+        <p class="card__sub">Every my&amp;mess track, in one place. Website-only — the Shorts stay scored with Vespero.</p>
+        <iframe
+          class="spotify"
+          src="https://open.spotify.com/embed/album/6YGGkjJsb6RAYKnvI9Lx8v?utm_source=generator"
+          title="my&amp;mess — full album"
+          width="100%" height="352" frameborder="0"
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy" allowfullscreen></iframe>
       </section>
@@ -227,7 +240,7 @@
 
     <footer>
       <p>&copy; 2026 myendmess. All rights reserved.</p>
-      <a href="https://github.com/myendmess/daily-quote">github.com/myendmess/daily-quote</a>
+      <a href="https://github.com/myendmess/messlog">github.com/myendmess/messlog</a>
     </footer>
   </div>
 
@@ -245,7 +258,7 @@
         if (name) name.textContent = `${t.artist} · ${t.name}`;
         // Only reassign src when it actually changes, to avoid a redundant reload.
         if (yt && t.youtube_id) {
-          const u = `https://www.youtube-nocookie.com/embed/${t.youtube_id}`;
+          const u = `https://www.youtube.com/embed/${t.youtube_id}`;
           if (yt.src !== u) yt.src = u;
         }
         if (sp && t.spotify_track_id) {
