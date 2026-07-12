@@ -1,12 +1,17 @@
 {
   "_help": "Add a track: drop its .mp3 in assets/music/, add an entry under \"tracks\" keyed by the exact .mp3 filename, then set \"featured\" to the track the landing page should show. make_video.sh credits whichever track it randomly used; index.html embeds the featured one. Optional per-track \"start_at\" (seconds) makes the Short's audio begin at that point in the song.",
-  "featured": "vespero.mp3",
+  "featured": "my&mess - Vespero.mp3",
   "tracks": {
-    "vespero.mp3": {
+    "my&mess - Vespero.mp3": {
       "name": "Vespero",
       "artist": "my&mess",
       "youtube_id": "vCGCdhOoUL4",
       "spotify_track_id": "3T4WZ84ukDuik3TAlz6HCX"
+    },
+    "my&mess - Ascend.mp3": {
+      "name": "Ascend",
+      "artist": "my&mess",
+      "start_at": 21
     },
     "my&mess - Ash & Blade.mp3": {
       "name": "Ash & Blade",
