@@ -69,12 +69,12 @@ def playlist_total(youtube, playlist_id):
 def music_credit():
     """Music credit block for whichever track make_video.sh used.
 
-    Reads track.txt (the chosen .mp3 basename) and looks it up in music.json.
+    Reads track.txt (the chosen .mp3 basename) and looks it up in assets/music.json.
     Returns '' when the track is unknown or the manifest is missing, so an
     upload never fails just because the credit could not be built."""
     try:
         track = read("track.txt")
-        with open("music.json", encoding="utf-8") as f:
+        with open("assets/music.json", encoding="utf-8") as f:
             meta = json.load(f).get("tracks", {}).get(track)
     except (FileNotFoundError, ValueError):
         return ""

@@ -121,10 +121,10 @@ color=c=black:s=1080x1920:d=$((DUR+1)),${QUOTE_MASK},format=rgb24[mask];
 if [ ${#tracks[@]} -gt 0 ]; then
   track="${tracks[RANDOM % ${#tracks[@]}]}"
   echo "Music: $track"
-  # Record which track was used so upload_youtube.py can credit it (music.json).
+  # Record which track was used so upload_youtube.py can credit it (assets/music.json).
   basename "$track" > track.txt
   # Optional per-track start offset in seconds (music.json "start_at"); 0/absent = from the top.
-  start=$(jq -r --arg t "$(basename "$track")" '.tracks[$t].start_at // 0' music.json 2>/dev/null) || start=0
+  start=$(jq -r --arg t "$(basename "$track")" '.tracks[$t].start_at // 0' assets/music.json 2>/dev/null) || start=0
   case "$start" in ''|*[!0-9]*) start=0 ;; esac  # digits only — anything odd falls back to 0
   if [ "$start" -gt 0 ]; then
     echo "Music starts at ${start}s"

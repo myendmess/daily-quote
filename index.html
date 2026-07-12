@@ -245,9 +245,9 @@
   </div>
 
   <script>
-    // Single source of truth: music.json drives the featured track shown here.
+    // Single source of truth: assets/music.json drives the featured track shown here.
     // If it can't load, the markup above stays as a graceful fallback.
-    fetch('music.json')
+    fetch('assets/music.json')
       .then(r => r.json())
       .then(cfg => {
         const t = cfg.tracks && cfg.tracks[cfg.featured];

@@ -1,7 +1,7 @@
 """Pick today's quote from the curated bank and emit the pipeline's inputs.
 
-Reads quotes.json (pre-translated quote bank) and locales.json (market
-config), writes:
+Reads assets/quotes.json (pre-translated quote bank) and assets/locales.json
+(market config), writes:
     quote.txt / author.txt   consumed by make_video.sh and the README commit
     localized.json           consumed by upload_youtube.py (YouTube
                              localizations: per-language title/description)
@@ -19,8 +19,8 @@ import re
 import sys
 from datetime import date, datetime, timezone
 
-QUOTES_FILE = "quotes.json"
-LOCALES_FILE = "locales.json"
+QUOTES_FILE = "assets/quotes.json"
+LOCALES_FILE = "assets/locales.json"
 OUTPUT_FILE = "localized.json"
 
 # Bank content is committed and reviewed, but sanitize anyway — these strings
