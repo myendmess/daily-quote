@@ -39,6 +39,12 @@ New music can go on the landing page (Spotify embed), into the daily-Short rotat
 
 ---
 
+## 2026-07-12
+
+> What's obvious to you isn't obvious to most people. Operate from this perspective and you'll help more people.
+
+— Jack Butcher
+
 ## 2026-07-11
 
 > Imagination is the true magic carpet.
