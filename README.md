@@ -49,6 +49,12 @@ New music can go on the landing page (Spotify embed), into the daily-Short rotat
 
 ## 2026-07-12
 
+> Wheels of justice grind slow but grind fine.
+
+— Sun Tzu
+
+## 2026-07-12
+
 > There are more people who wish to be loved than there are who are willing to love.
 
 — Nicolas Chamfort
