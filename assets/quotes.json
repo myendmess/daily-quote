@@ -1085,102 +1085,362 @@
     {
       "quote": "Some day you will be old enough to start reading fairy tales again.",
       "author": "C.S. Lewis",
-      "translations": {}
+      "translations": {
+        "it": "Un giorno sarai abbastanza grande per ricominciare a leggere le fiabe.",
+        "id": "Suatu hari kamu akan cukup dewasa untuk mulai membaca dongeng lagi.",
+        "fil": "Balang araw, sapat na ang iyong gulang para muling magbasa ng mga kuwentong engkanto.",
+        "hi": "एक दिन आप इतने बड़े हो जाएँगे कि फिर से परियों की कहानियाँ पढ़ने लगेंगे।",
+        "es": "Algún día serás lo bastante mayor para volver a leer cuentos de hadas.",
+        "fr": "Un jour, tu seras assez grand pour recommencer à lire des contes de fées.",
+        "de": "Eines Tages wirst du alt genug sein, um wieder Märchen zu lesen.",
+        "ja": "いつかまた、おとぎ話を読めるほど大人になる日が来る。",
+        "zh-CN": "总有一天，你会长大到可以重新开始读童话。",
+        "ar": "يوماً ما ستكبر بما يكفي لتعود إلى قراءة الحكايات الخيالية.",
+        "ru": "Однажды ты станешь достаточно взрослым, чтобы снова начать читать сказки.",
+        "pt": "Um dia você será grande o suficiente para voltar a ler contos de fadas."
+      }
     },
     {
       "quote": "The fear of death follows from the fear of life. A man who lives fully is prepared to die at any time.",
       "author": "Mark Twain",
-      "translations": {}
+      "translations": {
+        "it": "La paura della morte nasce dalla paura della vita. Chi vive pienamente è pronto a morire in qualsiasi momento.",
+        "id": "Takut akan kematian berasal dari takut akan kehidupan. Orang yang hidup sepenuhnya siap mati kapan saja.",
+        "fil": "Ang takot sa kamatayan ay nagmumula sa takot sa buhay. Ang taong lubos na nabubuhay ay handang mamatay anumang oras.",
+        "hi": "मृत्यु का भय जीवन के भय से आता है। जो पूरी तरह जीता है, वह किसी भी क्षण मरने को तैयार रहता है।",
+        "es": "El miedo a la muerte nace del miedo a la vida. Quien vive plenamente está preparado para morir en cualquier momento.",
+        "fr": "La peur de la mort découle de la peur de la vie. Celui qui vit pleinement est prêt à mourir à tout moment.",
+        "de": "Die Angst vor dem Tod entspringt der Angst vor dem Leben. Wer voll und ganz lebt, ist jederzeit bereit zu sterben.",
+        "ja": "死への恐れは、生への恐れから生まれる。全力で生きる者は、いつ死んでもいい覚悟ができている。",
+        "zh-CN": "对死亡的恐惧源于对生活的恐惧。活得充实的人，随时准备赴死。",
+        "ar": "الخوف من الموت ينبع من الخوف من الحياة. من يعيش حياته بالكامل مستعد للموت في أي لحظة.",
+        "ru": "Страх смерти рождается из страха перед жизнью. Тот, кто живёт полной жизнью, готов умереть в любой момент.",
+        "pt": "O medo da morte vem do medo da vida. Quem vive plenamente está preparado para morrer a qualquer momento."
+      }
     },
     {
       "quote": "A lie can travel half way around the world while the truth is putting on its shoes.",
       "author": "Mark Twain",
-      "translations": {}
+      "translations": {
+        "it": "Una bugia può fare mezzo giro del mondo mentre la verità si sta ancora mettendo le scarpe.",
+        "id": "Kebohongan bisa mengelilingi separuh dunia sementara kebenaran masih memakai sepatunya.",
+        "fil": "Ang kasinungalingan ay nakakalibot na sa kalahati ng mundo habang nagsusuot pa lang ng sapatos ang katotohanan.",
+        "hi": "झूठ आधी दुनिया घूम आता है, जब तक सच अपने जूते पहन रहा होता है।",
+        "es": "Una mentira puede recorrer medio mundo mientras la verdad aún se está poniendo los zapatos.",
+        "fr": "Un mensonge peut faire la moitié du tour du monde pendant que la vérité met encore ses chaussures.",
+        "de": "Eine Lüge kann um die halbe Welt reisen, während die Wahrheit sich noch die Schuhe anzieht.",
+        "ja": "真実が靴を履いている間に、嘘は世界を半周する。",
+        "zh-CN": "真相还在穿鞋，谎言已经走遍了半个世界。",
+        "ar": "تقطع الكذبة نصف العالم قبل أن تنتهي الحقيقة من ارتداء حذائها.",
+        "ru": "Ложь успевает обойти полмира, пока правда надевает ботинки.",
+        "pt": "Uma mentira pode dar meia volta ao mundo enquanto a verdade ainda está calçando os sapatos."
+      }
     },
     {
       "quote": "Some people never go crazy. What truly horrible lives they must lead.",
       "author": "Charles Bukowski",
-      "translations": {}
+      "translations": {
+        "it": "Certe persone non impazziscono mai. Che vite davvero orribili devono condurre.",
+        "id": "Sebagian orang tidak pernah menjadi gila. Betapa mengerikannya hidup yang mereka jalani.",
+        "fil": "May mga taong hindi kailanman nababaliw. Kay lungkot sigurong isipin ng buhay nila.",
+        "hi": "कुछ लोग कभी पागल नहीं होते। सोचिए, कितनी भयानक ज़िंदगी जीते होंगे वे।",
+        "es": "Algunas personas nunca enloquecen. Qué vidas tan horribles deben de llevar.",
+        "fr": "Certaines personnes ne deviennent jamais folles. Quelles vies vraiment horribles elles doivent mener.",
+        "de": "Manche Menschen werden nie verrückt. Was für wahrhaft schreckliche Leben sie führen müssen.",
+        "ja": "決して狂わない人たちがいる。なんと恐ろしい人生を送っていることか。",
+        "zh-CN": "有些人从不疯狂。他们的生活该有多可怕。",
+        "ar": "بعض الناس لا يجنّون أبداً. يا لها من حياة مروعة تلك التي يعيشونها.",
+        "ru": "Некоторые люди никогда не сходят с ума. Какую же поистине ужасную жизнь они ведут.",
+        "pt": "Algumas pessoas nunca enlouquecem. Que vidas verdadeiramente horríveis devem levar."
+      }
     },
     {
       "quote": "The trouble with having an open mind, of course, is that people will insist on coming along and trying to put things in it.",
       "author": "Terry Pratchett",
-      "translations": {}
+      "translations": {
+        "it": "Il problema di avere una mente aperta, ovviamente, è che la gente insisterà per venire a metterci dentro le proprie idee.",
+        "id": "Masalahnya dengan pikiran yang terbuka, tentu saja, adalah orang-orang akan terus datang dan mencoba mengisinya.",
+        "fil": "Ang problema sa bukas na isipan, siyempre, ay pipilitin ng mga tao na lagyan ito ng kung anu-ano.",
+        "hi": "खुले दिमाग़ की मुश्किल यह है कि लोग आ-आकर उसमें अपनी बातें भरने की ज़िद करते हैं।",
+        "es": "El problema de tener una mente abierta, por supuesto, es que la gente insistirá en venir a meter cosas en ella.",
+        "fr": "L'ennui avec un esprit ouvert, bien sûr, c'est que les gens insistent pour venir y mettre des choses.",
+        "de": "Das Problem mit einem offenen Geist ist natürlich, dass die Leute unbedingt vorbeikommen und Dinge hineinstecken wollen.",
+        "ja": "開かれた心の困ったところは、人がやって来て何かを詰め込もうとすることだ。",
+        "zh-CN": "思想开放的麻烦在于，总有人坚持要往里面塞东西。",
+        "ar": "مشكلة العقل المنفتح، بالطبع، أن الناس سيصرّون على المجيء لوضع أفكارهم فيه.",
+        "ru": "Беда открытого ума, конечно, в том, что люди так и норовят что-нибудь в него вложить.",
+        "pt": "O problema de ter a mente aberta, claro, é que as pessoas insistem em vir colocar coisas dentro dela."
+      }
     },
     {
       "quote": "Think left and think right and think low and think high. Oh, the thinks you can think up if only you try!",
       "author": "Dr. Seuss",
-      "translations": {}
+      "translations": {
+        "it": "Pensa a sinistra e pensa a destra, pensa in basso e pensa in alto. Oh, quante cose puoi pensare, se solo ci provi!",
+        "id": "Berpikirlah ke kiri dan ke kanan, ke bawah dan ke atas. Oh, betapa banyak yang bisa kau pikirkan jika kau mencoba!",
+        "fil": "Mag-isip pakaliwa at pakanan, pababa at pataas. O, kay raming maiisip mo kung susubukan mo lang!",
+        "hi": "बाएँ सोचो, दाएँ सोचो, नीचे सोचो, ऊपर सोचो। ओह, कोशिश करो तो क्या-क्या नहीं सोच सकते तुम!",
+        "es": "Piensa a la izquierda y piensa a la derecha, piensa abajo y piensa arriba. ¡Oh, cuántas cosas puedes pensar con solo intentarlo!",
+        "fr": "Pense à gauche, pense à droite, pense en bas, pense en haut. Oh, tout ce que tu peux inventer si seulement tu essaies !",
+        "de": "Denk nach links und denk nach rechts, denk nach unten und nach oben. Oh, was du dir alles ausdenken kannst, wenn du es nur versuchst!",
+        "ja": "左に考え、右に考え、低く考え、高く考えよう。やってみれば、どれほど多くのことを思いつけることか！",
+        "zh-CN": "往左想，往右想，往低处想，往高处想。哦，只要肯尝试，你能想出多少奇思妙想！",
+        "ar": "فكر يميناً ويساراً، وفكر عالياً ومنخفضاً. كم من الأفكار يمكنك ابتكارها إن حاولت فقط!",
+        "ru": "Думай влево, думай вправо, думай вниз и думай вверх. О, сколько всего можно придумать, стоит только попробовать!",
+        "pt": "Pense para a esquerda e para a direita, pense para baixo e para cima. Ah, quantas coisas você pode pensar se apenas tentar!"
+      }
     },
     {
       "quote": "The reason I talk to myself is because I'm the only one whose answers I accept.",
       "author": "George Carlin",
-      "translations": {}
+      "translations": {
+        "it": "Parlo da solo perché sono l'unico le cui risposte accetto.",
+        "id": "Aku berbicara pada diriku sendiri karena hanya jawabankulah yang kuterima.",
+        "fil": "Kinakausap ko ang sarili ko dahil ako lang ang taong tinatanggap ko ang mga sagot.",
+        "hi": "मैं खुद से बातें इसलिए करता हूँ क्योंकि सिर्फ़ अपने ही जवाब मुझे मंज़ूर हैं।",
+        "es": "Hablo solo porque soy el único cuyas respuestas acepto.",
+        "fr": "Je me parle à moi-même parce que je suis le seul dont j'accepte les réponses.",
+        "de": "Ich rede mit mir selbst, weil ich der Einzige bin, dessen Antworten ich akzeptiere.",
+        "ja": "独り言を言うのは、自分の答えしか受け入れられないからだ。",
+        "zh-CN": "我自言自语，因为我只接受自己的答案。",
+        "ar": "أتحدث مع نفسي لأنني الوحيد الذي أقبل إجاباته.",
+        "ru": "Я разговариваю сам с собой, потому что только свои ответы я и принимаю.",
+        "pt": "Falo sozinho porque sou o único cujas respostas eu aceito."
+      }
     },
     {
       "quote": "I am free of all prejudice. I hate everyone equally.",
       "author": "W.C. Fields",
-      "translations": {}
+      "translations": {
+        "it": "Sono libero da ogni pregiudizio: odio tutti allo stesso modo.",
+        "id": "Aku bebas dari segala prasangka. Aku membenci semua orang secara setara.",
+        "fil": "Wala akong kinikilingan. Pantay-pantay ang galit ko sa lahat.",
+        "hi": "मुझमें कोई पक्षपात नहीं है। मैं सबसे बराबर नफ़रत करता हूँ।",
+        "es": "Estoy libre de todo prejuicio. Odio a todos por igual.",
+        "fr": "Je suis libre de tout préjugé. Je déteste tout le monde de manière égale.",
+        "de": "Ich bin frei von jedem Vorurteil. Ich hasse alle gleichermaßen.",
+        "ja": "私に偏見はない。誰のことも平等に嫌っている。",
+        "zh-CN": "我毫无偏见。我对所有人一视同仁地讨厌。",
+        "ar": "أنا متحرر من كل تحيّز؛ فأنا أكره الجميع بالتساوي.",
+        "ru": "Я свободен от всяких предрассудков. Я ненавижу всех одинаково.",
+        "pt": "Sou livre de qualquer preconceito. Odeio todo mundo igualmente."
+      }
     },
     {
       "quote": "The question isn't who is going to let me; it's who is going to stop me.",
       "author": "Ayn Rand",
-      "translations": {}
+      "translations": {
+        "it": "La domanda non è chi me lo permetterà, ma chi riuscirà a fermarmi.",
+        "id": "Pertanyaannya bukan siapa yang akan mengizinkanku, melainkan siapa yang akan menghentikanku.",
+        "fil": "Ang tanong ay hindi kung sino ang magpapahintulot sa akin, kundi kung sino ang makakapigil sa akin.",
+        "hi": "सवाल यह नहीं कि मुझे कौन इजाज़त देगा; सवाल यह है कि मुझे कौन रोकेगा।",
+        "es": "La pregunta no es quién me lo va a permitir; es quién me lo va a impedir.",
+        "fr": "La question n'est pas de savoir qui va me le permettre, mais qui va m'en empêcher.",
+        "de": "Die Frage ist nicht, wer es mir erlauben wird — sondern wer mich aufhalten will.",
+        "ja": "問題は誰が許してくれるかではない。誰が私を止められるかだ。",
+        "zh-CN": "问题不在于谁会允许我，而在于谁能阻止我。",
+        "ar": "السؤال ليس من سيسمح لي، بل من سيوقفني.",
+        "ru": "Вопрос не в том, кто мне позволит, а в том, кто меня остановит.",
+        "pt": "A questão não é quem vai me deixar; é quem vai me impedir."
+      }
     },
     {
       "quote": "'Classic' — a book which people praise and don't read.",
       "author": "Mark Twain",
-      "translations": {}
+      "translations": {
+        "it": "'Classico': un libro che tutti lodano e nessuno legge.",
+        "id": "'Klasik' — buku yang dipuji semua orang tapi tidak dibaca.",
+        "fil": "'Klasiko' — aklat na pinupuri ng mga tao ngunit hindi binabasa.",
+        "hi": "'क्लासिक' — वह किताब जिसकी लोग तारीफ़ तो करते हैं, पर पढ़ते नहीं।",
+        "es": "'Clásico': un libro que la gente elogia y no lee.",
+        "fr": "« Classique » : un livre que les gens louent et ne lisent pas.",
+        "de": "'Klassiker' — ein Buch, das die Leute loben und nicht lesen.",
+        "ja": "「古典」とは、誰もが褒めるが誰も読まない本のことだ。",
+        "zh-CN": "所谓'经典'，就是人人称赞却无人阅读的书。",
+        "ar": "'الكتاب الكلاسيكي' هو كتاب يمدحه الناس ولا يقرؤونه.",
+        "ru": "«Классика» — это книга, которую все хвалят и никто не читает.",
+        "pt": "'Clássico' — um livro que as pessoas elogiam e não leem."
+      }
     },
     {
       "quote": "You don't forget the face of the person who was your last hope.",
       "author": "Suzanne Collins",
-      "translations": {}
+      "translations": {
+        "it": "Non dimentichi mai il volto della persona che è stata la tua ultima speranza.",
+        "id": "Kamu tak akan pernah melupakan wajah orang yang menjadi harapan terakhirmu.",
+        "fil": "Hindi mo malilimutan ang mukha ng taong naging huling pag-asa mo.",
+        "hi": "जो इंसान आपकी आख़िरी उम्मीद था, उसका चेहरा आप कभी नहीं भूलते।",
+        "es": "Nunca olvidas el rostro de la persona que fue tu última esperanza.",
+        "fr": "On n'oublie jamais le visage de la personne qui était notre dernier espoir.",
+        "de": "Man vergisst nie das Gesicht des Menschen, der die letzte Hoffnung war.",
+        "ja": "最後の望みだった人の顔を、人は決して忘れない。",
+        "zh-CN": "你永远不会忘记那个曾是你最后希望的人的脸。",
+        "ar": "لا تنسى أبداً وجه الشخص الذي كان أملك الأخير.",
+        "ru": "Никогда не забываешь лицо человека, который был твоей последней надеждой.",
+        "pt": "Você nunca esquece o rosto da pessoa que foi a sua última esperança."
+      }
     },
     {
       "quote": "Not all those who wander are lost.",
       "author": "J.R.R. Tolkien",
-      "translations": {}
+      "translations": {
+        "it": "Non tutti coloro che vagano si sono perduti.",
+        "id": "Tidak semua yang mengembara itu tersesat.",
+        "fil": "Hindi lahat ng naglalakbay nang walang tiyak na patutunguhan ay naliligaw.",
+        "hi": "हर भटकने वाला रास्ता भूला नहीं होता।",
+        "es": "No todos los que vagan están perdidos.",
+        "fr": "Tous ceux qui errent ne sont pas perdus.",
+        "de": "Nicht alle, die wandern, sind verloren.",
+        "ja": "さまよう者すべてが道に迷っているわけではない。",
+        "zh-CN": "流浪的人未必都迷失了方向。",
+        "ar": "ليس كل من يهيم على وجهه تائهاً.",
+        "ru": "Не все, кто странствует, заблудились.",
+        "pt": "Nem todos os que vagam estão perdidos."
+      }
     },
     {
       "quote": "Do not pity the dead, Harry. Pity the living, and, above all those who live without love.",
       "author": "J.K. Rowling",
-      "translations": {}
+      "translations": {
+        "it": "Non compiangere i morti, Harry. Compiangi i vivi, e soprattutto chi vive senza amore.",
+        "id": "Jangan kasihani yang telah tiada, Harry. Kasihanilah yang masih hidup, terutama mereka yang hidup tanpa cinta.",
+        "fil": "Huwag mong kaawaan ang mga namatay, Harry. Kaawaan mo ang mga buhay, higit sa lahat ang mga nabubuhay nang walang pag-ibig.",
+        "hi": "मरे हुओं पर तरस मत खाओ, हैरी। तरस खाओ ज़िंदों पर — और सबसे ज़्यादा उन पर, जो बिना प्रेम के जीते हैं।",
+        "es": "No te compadezcas de los muertos, Harry. Compadécete de los vivos y, sobre todo, de quienes viven sin amor.",
+        "fr": "Ne plains pas les morts, Harry. Plains les vivants, et surtout ceux qui vivent sans amour.",
+        "de": "Bedaure nicht die Toten, Harry. Bedaure die Lebenden, und vor allem jene, die ohne Liebe leben.",
+        "ja": "死者を憐れむな、ハリー。憐れむべきは生きている者、とりわけ愛なしに生きる者たちだ。",
+        "zh-CN": "不要怜悯死者，哈利。要怜悯活着的人，尤其是那些活在没有爱的世界里的人。",
+        "ar": "لا تشفق على الموتى يا هاري، بل أشفق على الأحياء، وفوق كل شيء على من يعيشون بلا حب.",
+        "ru": "Не жалей мёртвых, Гарри. Жалей живых, и прежде всего тех, кто живёт без любви.",
+        "pt": "Não tenha pena dos mortos, Harry. Tenha pena dos vivos e, acima de tudo, dos que vivem sem amor."
+      }
     },
     {
       "quote": "There is nothing to writing. All you do is sit down at a typewriter and bleed.",
       "author": "Ernest Hemingway",
-      "translations": {}
+      "translations": {
+        "it": "Scrivere non ha nulla di difficile. Basta sedersi alla macchina da scrivere e sanguinare.",
+        "id": "Menulis itu tidak sulit. Kamu hanya duduk di depan mesin tik dan berdarah.",
+        "fil": "Walang mahirap sa pagsusulat. Uupo ka lang sa makinilya at dadaloy ang dugo mo.",
+        "hi": "लिखने में कुछ नहीं रखा। बस टाइपराइटर के सामने बैठिए और लहू बहाइए।",
+        "es": "No hay nada difícil en escribir. Solo te sientas ante la máquina de escribir y sangras.",
+        "fr": "Écrire n'a rien de compliqué. Il suffit de s'asseoir devant sa machine à écrire et de saigner.",
+        "de": "Schreiben ist ganz einfach. Man setzt sich an die Schreibmaschine und blutet.",
+        "ja": "書くことは何でもない。タイプライターの前に座って、血を流すだけだ。",
+        "zh-CN": "写作没什么难的。你只需坐在打字机前，流血。",
+        "ar": "ليس في الكتابة شيء صعب. كل ما عليك أن تجلس أمام الآلة الكاتبة وتنزف.",
+        "ru": "В писательстве нет ничего сложного. Просто садишься за печатную машинку и истекаешь кровью.",
+        "pt": "Não há nada de difícil em escrever. Você só se senta diante da máquina de escrever e sangra."
+      }
     },
     {
       "quote": "I have never let my schooling interfere with my education.",
       "author": "Mark Twain",
-      "translations": {}
+      "translations": {
+        "it": "Non ho mai permesso alla scuola di intralciare la mia istruzione.",
+        "id": "Aku tidak pernah membiarkan sekolah mengganggu pendidikanku.",
+        "fil": "Hindi ko kailanman hinayaang makasagabal ang eskuwela sa aking edukasyon.",
+        "hi": "मैंने कभी स्कूल को अपनी शिक्षा के आड़े नहीं आने दिया।",
+        "es": "Nunca dejé que la escuela interfiriera en mi educación.",
+        "fr": "Je n'ai jamais laissé l'école entraver mon éducation.",
+        "de": "Ich habe nie zugelassen, dass die Schule meiner Bildung im Weg steht.",
+        "ja": "学校の勉強に、自分の教育の邪魔をさせたことは一度もない。",
+        "zh-CN": "我从不让上学妨碍我的教育。",
+        "ar": "لم أسمح قط للمدرسة أن تعيق تعليمي.",
+        "ru": "Я никогда не позволял школе мешать моему образованию.",
+        "pt": "Nunca deixei a escola atrapalhar a minha educação."
+      }
     },
     {
       "quote": "There is nothing I would not do for those who are really my friends. I have no notion of loving people by halves, it is not my nature.",
       "author": "Jane Austen",
-      "translations": {}
+      "translations": {
+        "it": "Non c'è nulla che non farei per chi è davvero mio amico. Non concepisco l'idea di amare le persone a metà: non è nella mia natura.",
+        "id": "Tidak ada yang tidak akan kulakukan untuk sahabat sejatiku. Aku tidak mengenal mencintai orang setengah-setengah; bukan begitu sifatku.",
+        "fil": "Walang bagay na hindi ko gagawin para sa tunay kong mga kaibigan. Hindi ko kayang magmahal nang pira-piraso; hindi iyon ang kalikasan ko.",
+        "hi": "जो सच में मेरे मित्र हैं, उनके लिए मैं कुछ भी कर सकती हूँ। आधे-अधूरे प्रेम की कल्पना मुझसे नहीं होती — यह मेरा स्वभाव नहीं।",
+        "es": "No hay nada que no hiciera por quienes son realmente mis amigos. No concibo querer a las personas a medias; no está en mi naturaleza.",
+        "fr": "Il n'y a rien que je ne ferais pas pour ceux qui sont vraiment mes amis. Je ne conçois pas d'aimer les gens à moitié ; ce n'est pas ma nature.",
+        "de": "Es gibt nichts, was ich nicht für meine wahren Freunde täte. Menschen nur halb zu lieben, liegt mir nicht — das ist nicht meine Art.",
+        "ja": "本当の友のためなら、私は何だってする。人を中途半端に愛するなんて考えられない。それは私の性分ではない。",
+        "zh-CN": "为了真正的朋友，我什么都愿意做。我不懂得半心半意地爱人，那不是我的天性。",
+        "ar": "ما من شيء لا أفعله من أجل أصدقائي الحقيقيين. لا أعرف أن أحب الناس أنصاف حب؛ فهذه ليست طبيعتي.",
+        "ru": "Нет ничего, чего я не сделала бы для настоящих друзей. Я не умею любить людей наполовину — это не в моей натуре.",
+        "pt": "Não há nada que eu não fizesse por aqueles que são realmente meus amigos. Não sei amar as pessoas pela metade; não é da minha natureza."
+      }
     },
     {
       "quote": "Do one thing every day that scares you.",
       "author": "Eleanor Roosevelt",
-      "translations": {}
+      "translations": {
+        "it": "Fai ogni giorno una cosa che ti spaventa.",
+        "id": "Lakukan satu hal yang menakutkanmu setiap hari.",
+        "fil": "Gumawa ka araw-araw ng isang bagay na kinatatakutan mo.",
+        "hi": "हर दिन एक ऐसा काम कीजिए जिससे आपको डर लगता हो।",
+        "es": "Haz cada día algo que te dé miedo.",
+        "fr": "Fais chaque jour une chose qui te fait peur.",
+        "de": "Tu jeden Tag etwas, wovor du Angst hast.",
+        "ja": "毎日ひとつ、怖いと思うことをやってみよう。",
+        "zh-CN": "每天做一件让你害怕的事。",
+        "ar": "افعل كل يوم شيئاً واحداً يخيفك.",
+        "ru": "Каждый день делай что-то, что тебя пугает.",
+        "pt": "Faça todos os dias uma coisa que te dá medo."
+      }
     },
     {
       "quote": "I am good, but not an angel. I do sin, but I am not the devil. I am just a small girl in a big world trying to find someone to love.",
       "author": "Marilyn Monroe",
-      "translations": {}
+      "translations": {
+        "it": "Sono buona, ma non un angelo. Pecco, ma non sono il diavolo. Sono solo una ragazza in un grande mondo, in cerca di qualcuno da amare.",
+        "id": "Aku baik, tapi bukan malaikat. Aku berbuat salah, tapi bukan iblis. Aku hanya gadis kecil di dunia yang besar, yang mencari seseorang untuk dicintai.",
+        "fil": "Mabuti ako, pero hindi anghel. Nagkakasala ako, pero hindi ako demonyo. Isa lang akong maliit na babae sa malaking mundo na naghahanap ng mamahalin.",
+        "hi": "मैं अच्छी हूँ, पर फ़रिश्ता नहीं। ग़लतियाँ करती हूँ, पर शैतान नहीं। मैं बस एक बड़ी दुनिया में एक छोटी-सी लड़की हूँ, जो किसी को प्यार करने के लिए ढूँढ़ रही है।",
+        "es": "Soy buena, pero no un ángel. Peco, pero no soy el diablo. Solo soy una chica pequeña en un mundo grande que intenta encontrar a alguien a quien amar.",
+        "fr": "Je suis bonne, mais pas un ange. Je pèche, mais je ne suis pas le diable. Je ne suis qu'une petite fille dans un grand monde, qui cherche quelqu'un à aimer.",
+        "de": "Ich bin gut, aber kein Engel. Ich sündige, aber ich bin nicht der Teufel. Ich bin nur ein kleines Mädchen in einer großen Welt, das jemanden zum Lieben sucht.",
+        "ja": "私は善人だけど天使じゃない。過ちも犯すけど悪魔でもない。大きな世界で愛する人を探している、ただの小さな女の子。",
+        "zh-CN": "我善良，但不是天使。我会犯错，但不是魔鬼。我只是大世界里的一个小女孩，在寻找一个可以去爱的人。",
+        "ar": "أنا طيبة لكنني لست ملاكاً، وأخطئ لكنني لست شيطاناً. أنا مجرد فتاة صغيرة في عالم كبير تبحث عمن تحب.",
+        "ru": "Я хорошая, но не ангел. Я грешу, но я не дьявол. Я просто маленькая девочка в большом мире, которая ищет кого-то, кого можно любить.",
+        "pt": "Sou boa, mas não um anjo. Peco, mas não sou o diabo. Sou apenas uma garota num mundo grande tentando encontrar alguém para amar."
+      }
     },
     {
       "quote": "If I were not a physicist, I would probably be a musician. I often think in music. I live my daydreams in music. I see my life in terms of music.",
       "author": "Albert Einstein",
-      "translations": {}
+      "translations": {
+        "it": "Se non fossi un fisico, probabilmente sarei un musicista. Penso spesso in musica. Vivo i miei sogni a occhi aperti in musica. Vedo la mia vita in termini di musica.",
+        "id": "Seandainya aku bukan fisikawan, mungkin aku menjadi musisi. Aku sering berpikir dalam musik. Aku menjalani lamunanku dalam musik. Aku melihat hidupku melalui musik.",
+        "fil": "Kung hindi ako pisiko, malamang na musikero ako. Madalas akong mag-isip sa pamamagitan ng musika. Isinasabuhay ko ang aking mga pangarap sa musika. Nakikita ko ang buhay ko sa musika.",
+        "hi": "अगर मैं भौतिक विज्ञानी न होता, तो शायद संगीतकार होता। मैं अक्सर संगीत में सोचता हूँ, संगीत में सपने देखता हूँ, और अपने जीवन को संगीत में ही देखता हूँ।",
+        "es": "Si no fuera físico, probablemente sería músico. A menudo pienso en música. Vivo mis ensueños en música. Veo mi vida en términos de música.",
+        "fr": "Si je n'étais pas physicien, je serais probablement musicien. Je pense souvent en musique. Je vis mes rêveries en musique. Je vois ma vie en termes de musique.",
+        "de": "Wäre ich kein Physiker, wäre ich wahrscheinlich Musiker. Ich denke oft in Musik. Ich lebe meine Tagträume in Musik. Ich sehe mein Leben in Begriffen der Musik.",
+        "ja": "物理学者でなかったら、きっと音楽家になっていただろう。私はよく音楽で考える。白昼夢も音楽の中で生き、人生さえ音楽で捉えている。",
+        "zh-CN": "如果我不是物理学家，大概会成为音乐家。我常常用音乐思考，在音乐中做白日梦，用音乐来看待我的人生。",
+        "ar": "لو لم أكن فيزيائياً، لكنت على الأرجح موسيقياً. كثيراً ما أفكر بالموسيقى، وأعيش أحلام يقظتي فيها، وأرى حياتي من خلالها.",
+        "ru": "Если бы я не был физиком, я, вероятно, стал бы музыкантом. Я часто мыслю музыкой. Я живу свои мечты в музыке. Я вижу свою жизнь сквозь музыку.",
+        "pt": "Se eu não fosse físico, provavelmente seria músico. Penso muitas vezes em música. Vivo meus devaneios em música. Vejo minha vida em termos de música."
+      }
     },
     {
       "quote": "If you only read the books that everyone else is reading, you can only think what everyone else is thinking.",
       "author": "Haruki Murakami",
-      "translations": {}
+      "translations": {
+        "it": "Se leggi solo i libri che leggono tutti, potrai pensare solo ciò che pensano tutti.",
+        "id": "Jika kamu hanya membaca buku yang dibaca semua orang, kamu hanya bisa berpikir seperti yang dipikirkan semua orang.",
+        "fil": "Kung ang binabasa mo lang ay ang mga aklat na binabasa ng lahat, ang maiisip mo lang ay ang iniisip ng lahat.",
+        "hi": "अगर आप वही किताबें पढ़ेंगे जो सब पढ़ रहे हैं, तो आप वही सोचेंगे जो सब सोच रहे हैं।",
+        "es": "Si solo lees los libros que todos leen, solo podrás pensar lo que todos piensan.",
+        "fr": "Si tu ne lis que les livres que tout le monde lit, tu ne pourras penser que ce que tout le monde pense.",
+        "de": "Wenn du nur die Bücher liest, die alle lesen, kannst du nur denken, was alle denken.",
+        "ja": "みんなと同じ本ばかり読んでいては、みんなと同じことしか考えられなくなる。",
+        "zh-CN": "如果你只读所有人都在读的书，你就只能想所有人都在想的事。",
+        "ar": "إذا قرأت فقط الكتب التي يقرؤها الجميع، فلن تفكر إلا كما يفكر الجميع.",
+        "ru": "Если читать только те книги, что читают все, то и думать будешь лишь то, что думают все.",
+        "pt": "Se você só lê os livros que todo mundo está lendo, só consegue pensar o que todo mundo está pensando."
+      }
     },
     {
       "quote": "The difference between genius and stupidity is: genius has its limits.",
