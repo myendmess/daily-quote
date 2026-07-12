@@ -725,120 +725,365 @@
     {
       "quote": "The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.",
       "author": "Albert Einstein",
-      "translations": {}
+      "translations": {
+        "it": "Il mondo che abbiamo creato è il prodotto del nostro pensiero. Non può cambiare se non cambiamo il nostro modo di pensare.",
+        "id": "Dunia yang kita ciptakan adalah hasil dari cara berpikir kita. Ia tidak dapat berubah tanpa mengubah cara berpikir kita.",
+        "fil": "Ang mundong nilikha natin ay bunga ng ating pag-iisip. Hindi ito mababago nang hindi binabago ang ating pag-iisip.",
+        "hi": "हमने जो दुनिया बनाई है, वह हमारी सोच का परिणाम है। सोच बदले बिना यह दुनिया नहीं बदल सकती।",
+        "es": "El mundo que hemos creado es un proceso de nuestro pensamiento. No se puede cambiar sin cambiar nuestra manera de pensar.",
+        "fr": "Le monde que nous avons créé est le produit de notre pensée. On ne peut pas le changer sans changer notre façon de penser.",
+        "de": "Die Welt, wie wir sie geschaffen haben, ist ein Ergebnis unseres Denkens. Sie lässt sich nicht ändern, ohne unser Denken zu ändern.",
+        "ja": "私たちが作り上げた世界は、私たちの思考の産物だ。思考を変えずに世界を変えることはできない。",
+        "zh-CN": "我们所创造的世界是我们思维的产物。不改变思维，就无法改变世界。",
+        "ar": "العالم الذي صنعناه هو نتاج تفكيرنا، ولا يمكن تغييره دون أن نغيّر تفكيرنا.",
+        "ru": "Мир, который мы создали, — это плод нашего мышления. Его нельзя изменить, не изменив мышление.",
+        "pt": "O mundo que criamos é um processo do nosso pensamento. Não pode ser mudado sem mudarmos a nossa forma de pensar."
+      }
     },
     {
       "quote": "It is our choices, Harry, that show what we truly are, far more than our abilities.",
       "author": "J.K. Rowling",
-      "translations": {}
+      "translations": {
+        "it": "Sono le nostre scelte, Harry, a mostrare chi siamo davvero, molto più delle nostre capacità.",
+        "id": "Pilihan kitalah, Harry, yang menunjukkan siapa kita sebenarnya, jauh melebihi kemampuan kita.",
+        "fil": "Ang ating mga pinili, Harry, ang nagpapakita kung sino talaga tayo, higit pa sa ating mga kakayahan.",
+        "hi": "हैरी, हमारी पसंद ही दिखाती है कि हम वास्तव में क्या हैं — हमारी क़ाबिलियत से कहीं ज़्यादा।",
+        "es": "Son nuestras elecciones, Harry, las que muestran lo que realmente somos, mucho más que nuestras habilidades.",
+        "fr": "Ce sont nos choix, Harry, qui montrent ce que nous sommes vraiment, bien plus que nos aptitudes.",
+        "de": "Es sind unsere Entscheidungen, Harry, die zeigen, wer wir wirklich sind — viel mehr als unsere Fähigkeiten.",
+        "ja": "ハリー、本当の自分を示すのは能力ではなく、自らの選択なのだ。",
+        "zh-CN": "哈利，真正表明我们是什么样的人的，是我们的选择，而远不是我们的能力。",
+        "ar": "اختياراتنا، يا هاري، هي التي تُظهر حقيقتنا، أكثر بكثير من قدراتنا.",
+        "ru": "Именно наш выбор, Гарри, показывает, кто мы есть на самом деле, — гораздо больше, чем наши способности.",
+        "pt": "São as nossas escolhas, Harry, que mostram quem realmente somos, muito mais do que as nossas habilidades."
+      }
     },
     {
       "quote": "There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.",
       "author": "Albert Einstein",
-      "translations": {}
+      "translations": {
+        "it": "Ci sono solo due modi di vivere la vita. Uno è come se niente fosse un miracolo. L'altro è come se tutto lo fosse.",
+        "id": "Hanya ada dua cara menjalani hidup. Pertama, seolah tidak ada keajaiban. Kedua, seolah segalanya adalah keajaiban.",
+        "fil": "May dalawang paraan lamang para mabuhay. Ang una, parang walang himala. Ang ikalawa, parang lahat ay himala.",
+        "hi": "जीवन जीने के केवल दो तरीके हैं। एक — मानो कुछ भी चमत्कार नहीं है। दूसरा — मानो सब कुछ चमत्कार है।",
+        "es": "Solo hay dos maneras de vivir la vida. Una como si nada fuera un milagro. La otra como si todo fuera un milagro.",
+        "fr": "Il n'y a que deux façons de vivre sa vie. L'une comme si rien n'était un miracle. L'autre comme si tout en était un.",
+        "de": "Es gibt nur zwei Arten zu leben. Entweder so, als wäre nichts ein Wunder, oder so, als wäre alles eines.",
+        "ja": "人生の生き方は二つしかない。奇跡など何もないかのように生きるか、すべてが奇跡であるかのように生きるかだ。",
+        "zh-CN": "生活只有两种方式：一种是把一切都当作平常，另一种是把一切都当作奇迹。",
+        "ar": "هناك طريقتان فقط لعيش الحياة: الأولى كأن لا شيء معجزة، والثانية كأن كل شيء معجزة.",
+        "ru": "Есть только два способа прожить жизнь. Первый — будто чудес не бывает. Второй — будто всё вокруг чудо.",
+        "pt": "Há apenas duas maneiras de viver a vida. Uma é como se nada fosse um milagre. A outra é como se tudo fosse um milagre."
+      }
     },
     {
       "quote": "The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.",
       "author": "Jane Austen",
-      "translations": {}
+      "translations": {
+        "it": "La persona, uomo o donna che sia, che non prova piacere in un buon romanzo dev'essere insopportabilmente stupida.",
+        "id": "Orang, entah pria atau wanita, yang tidak menikmati novel yang bagus pastilah luar biasa bodoh.",
+        "fil": "Ang sinumang hindi nasisiyahan sa isang mahusay na nobela, lalaki man o babae, ay talagang hangal.",
+        "hi": "जो व्यक्ति — चाहे पुरुष हो या स्त्री — एक अच्छे उपन्यास का आनंद नहीं ले सकता, वह असहनीय रूप से मूर्ख ही होगा।",
+        "es": "La persona, sea caballero o dama, que no disfruta de una buena novela debe de ser intolerablemente estúpida.",
+        "fr": "La personne, homme ou femme, qui ne prend pas plaisir à un bon roman doit être d'une bêtise intolérable.",
+        "de": "Wer, ob Herr oder Dame, an einem guten Roman keine Freude findet, muss unerträglich dumm sein.",
+        "ja": "良い小説を楽しめない人は、紳士だろうと淑女だろうと、救いがたい愚か者に違いない。",
+        "zh-CN": "无论男女，凡是不能从一本好小说中获得乐趣的人，一定愚蠢得无可救药。",
+        "ar": "من لا يجد متعة في رواية جيدة، رجلاً كان أو امرأة، لا بد أنه غبي إلى حد لا يُحتمل.",
+        "ru": "Человек — джентльмен или леди, — не находящий удовольствия в хорошем романе, должно быть, нестерпимо глуп.",
+        "pt": "A pessoa, seja cavalheiro ou dama, que não sente prazer em um bom romance deve ser intoleravelmente estúpida."
+      }
     },
     {
       "quote": "Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.",
       "author": "Marilyn Monroe",
-      "translations": {}
+      "translations": {
+        "it": "L'imperfezione è bellezza, la follia è genialità, ed è meglio essere assolutamente ridicoli che assolutamente noiosi.",
+        "id": "Ketidaksempurnaan adalah keindahan, kegilaan adalah kejeniusan, dan lebih baik benar-benar konyol daripada benar-benar membosankan.",
+        "fil": "Ang pagiging di-perpekto ay kagandahan, ang kabaliwan ay katalinuhan, at mas mabuting maging lubos na katawa-tawa kaysa lubos na nakakabagot.",
+        "hi": "अपूर्णता ही सुंदरता है, पागलपन ही प्रतिभा है — और बिल्कुल बेतुका होना, बिल्कुल उबाऊ होने से बेहतर है।",
+        "es": "La imperfección es belleza, la locura es genialidad, y es mejor ser absolutamente ridículo que absolutamente aburrido.",
+        "fr": "L'imperfection est beauté, la folie est génie, et mieux vaut être absolument ridicule qu'absolument ennuyeux.",
+        "de": "Unvollkommenheit ist Schönheit, Wahnsinn ist Genie, und lieber absolut lächerlich als absolut langweilig sein.",
+        "ja": "不完全さは美しさ、狂気は天才。退屈きわまりないより、突き抜けてばかげている方がずっといい。",
+        "zh-CN": "不完美是美，疯狂是天才。与其无聊透顶，不如荒唐彻底。",
+        "ar": "النقص جمال، والجنون عبقرية، وأن تكون سخيفاً تماماً خير من أن تكون مملاً تماماً.",
+        "ru": "Несовершенство — это красота, безумие — это гениальность, и лучше быть абсолютно нелепым, чем абсолютно скучным.",
+        "pt": "A imperfeição é beleza, a loucura é genialidade, e é melhor ser absolutamente ridículo do que absolutamente entediante."
+      }
     },
     {
       "quote": "Try not to become a man of success. Rather become a man of value.",
       "author": "Albert Einstein",
-      "translations": {}
+      "translations": {
+        "it": "Non cercare di diventare un uomo di successo, ma piuttosto un uomo di valore.",
+        "id": "Jangan berusaha menjadi orang yang sukses, tetapi jadilah orang yang bernilai.",
+        "fil": "Huwag mong sikaping maging taong matagumpay. Sikapin mong maging taong may halaga.",
+        "hi": "सफल इंसान बनने की कोशिश मत कीजिए, मूल्यवान इंसान बनिए।",
+        "es": "No trates de convertirte en un hombre de éxito, sino en un hombre de valor.",
+        "fr": "Ne cherche pas à devenir un homme de succès, mais plutôt un homme de valeur.",
+        "de": "Versuche nicht, ein erfolgreicher Mensch zu werden, sondern ein wertvoller.",
+        "ja": "成功した人になろうとするな。価値のある人になろうとせよ。",
+        "zh-CN": "不要努力成为成功的人，而要努力成为有价值的人。",
+        "ar": "لا تسعَ لأن تكون إنساناً ناجحاً، بل اسعَ لأن تكون إنساناً ذا قيمة.",
+        "ru": "Старайся стать не успешным человеком, а человеком ценным.",
+        "pt": "Não tente se tornar um homem de sucesso, mas sim um homem de valor."
+      }
     },
     {
       "quote": "It is better to be hated for what you are than to be loved for what you are not.",
-      "author": "Andr Gide",
-      "translations": {}
+      "author": "André Gide",
+      "translations": {
+        "it": "È meglio essere odiati per ciò che si è che amati per ciò che non si è.",
+        "id": "Lebih baik dibenci karena menjadi dirimu sendiri daripada dicintai karena menjadi orang lain.",
+        "fil": "Mas mabuting kamuhian ka dahil sa kung sino ka talaga kaysa mahalin ka dahil sa pagpapanggap.",
+        "hi": "जो आप हैं उसके लिए नफ़रत सहना बेहतर है, बजाय इसके कि जो आप नहीं हैं उसके लिए प्यार पाएँ।",
+        "es": "Es mejor ser odiado por lo que eres que amado por lo que no eres.",
+        "fr": "Il vaut mieux être haï pour ce qu'on est qu'aimé pour ce qu'on n'est pas.",
+        "de": "Es ist besser, für das gehasst zu werden, was man ist, als für das geliebt zu werden, was man nicht ist.",
+        "ja": "偽りの自分で愛されるより、ありのままの自分で憎まれる方がいい。",
+        "zh-CN": "因真实的自己被憎恨，也好过因虚假的自己被喜爱。",
+        "ar": "أن تُكره على حقيقتك خير من أن تُحب على ما لست عليه.",
+        "ru": "Лучше быть ненавидимым за то, каков ты есть, чем любимым за то, кем ты не являешься.",
+        "pt": "É melhor ser odiado pelo que você é do que ser amado pelo que você não é."
+      }
     },
     {
       "quote": "I have not failed. I've just found 10,000 ways that won't work.",
       "author": "Thomas A. Edison",
-      "translations": {}
+      "translations": {
+        "it": "Non ho fallito. Ho solo trovato 10.000 modi che non funzionano.",
+        "id": "Saya tidak gagal. Saya hanya menemukan 10.000 cara yang tidak berhasil.",
+        "fil": "Hindi ako nabigo. Nakahanap lang ako ng 10,000 paraang hindi gumagana.",
+        "hi": "मैं असफल नहीं हुआ। मैंने बस 10,000 ऐसे तरीक़े खोजे हैं जो काम नहीं करते।",
+        "es": "No he fracasado. Solo he encontrado 10.000 maneras que no funcionan.",
+        "fr": "Je n'ai pas échoué. J'ai simplement trouvé 10 000 façons qui ne fonctionnent pas.",
+        "de": "Ich bin nicht gescheitert. Ich habe nur 10.000 Wege gefunden, die nicht funktionieren.",
+        "ja": "私は失敗したのではない。うまくいかない方法を一万通り見つけただけだ。",
+        "zh-CN": "我没有失败。我只是找到了一万种行不通的方法。",
+        "ar": "أنا لم أفشل، بل وجدت عشرة آلاف طريقة لا تنجح.",
+        "ru": "Я не потерпел неудачу. Я просто нашёл десять тысяч способов, которые не работают.",
+        "pt": "Eu não fracassei. Só encontrei 10.000 caminhos que não funcionam."
+      }
     },
     {
       "quote": "A woman is like a tea bag; you never know how strong it is until it's in hot water.",
       "author": "Eleanor Roosevelt",
-      "translations": {}
+      "translations": {
+        "it": "Una donna è come una bustina di tè: non sai quanto è forte finché non la metti nell'acqua bollente.",
+        "id": "Perempuan itu seperti kantong teh; kamu tidak tahu seberapa kuat dia sampai ia berada di air panas.",
+        "fil": "Ang babae ay parang tea bag; hindi mo malalaman kung gaano siya katatag hangga't hindi siya nasa mainit na tubig.",
+        "hi": "औरत टी-बैग की तरह होती है; उसकी ताक़त का पता तभी चलता है जब वह गर्म पानी में हो।",
+        "es": "Una mujer es como una bolsita de té; nunca sabes lo fuerte que es hasta que está en agua caliente.",
+        "fr": "Une femme, c'est comme un sachet de thé : on ne sait jamais à quel point elle est forte avant de la plonger dans l'eau chaude.",
+        "de": "Eine Frau ist wie ein Teebeutel: Man weiß erst, wie stark sie ist, wenn sie in heißem Wasser ist.",
+        "ja": "女性はティーバッグのようなもの。熱湯に入れて初めて、その強さがわかる。",
+        "zh-CN": "女人就像茶包，不放进热水里，你永远不知道她有多强。",
+        "ar": "المرأة مثل كيس الشاي؛ لا تعرف مدى قوتها حتى تكون في الماء الساخن.",
+        "ru": "Женщина как чайный пакетик: её силу узнаёшь, только когда она попадает в кипяток.",
+        "pt": "Uma mulher é como um saquinho de chá; você nunca sabe o quão forte ela é até colocá-la na água quente."
+      }
     },
     {
       "quote": "A day without sunshine is like, you know, night.",
       "author": "Steve Martin",
-      "translations": {}
-    },
-    {
-      "quote": "The truth.\" Dumbledore sighed. \"It is a beautiful and terrible thing, and should therefore be treated with great caution.",
-      "author": "J.K. Rowling",
-      "translations": {}
+      "translations": {
+        "it": "Un giorno senza sole è come, sai, la notte.",
+        "id": "Hari tanpa sinar matahari itu seperti, yah, malam.",
+        "fil": "Ang araw na walang sikat ng araw ay parang, alam mo na, gabi.",
+        "hi": "बिना धूप का दिन, समझ लीजिए, रात जैसा ही है।",
+        "es": "Un día sin sol es como, ya sabes, la noche.",
+        "fr": "Une journée sans soleil, c'est comme, tu sais, la nuit.",
+        "de": "Ein Tag ohne Sonnenschein ist wie, na ja, Nacht.",
+        "ja": "太陽のない一日は、ほら、つまり夜だ。",
+        "zh-CN": "没有阳光的日子就像——你懂的——黑夜。",
+        "ar": "يوم بلا شمس هو، كما تعلم، ليل.",
+        "ru": "День без солнца — это, ну, знаете, ночь.",
+        "pt": "Um dia sem sol é tipo, sabe, noite."
+      }
     },
     {
       "quote": "I'm the one that's got to die when it's time for me to die, so let me live my life the way I want to.",
       "author": "Jimi Hendrix",
-      "translations": {}
-    },
-    {
-      "quote": "To die will be an awfully big adventure.",
-      "author": "J.M. Barrie",
-      "translations": {}
+      "translations": {
+        "it": "Sono io quello che dovrà morire quando sarà la mia ora: lasciatemi vivere la vita come voglio io.",
+        "id": "Akulah yang akan mati ketika waktuku tiba, jadi biarkan aku menjalani hidupku sesuai keinginanku.",
+        "fil": "Ako ang mamamatay pagdating ng oras ko, kaya hayaan ninyo akong mabuhay ayon sa gusto ko.",
+        "hi": "जब मेरा समय आएगा तो मरना मुझे ही है, इसलिए मुझे अपनी ज़िंदगी अपने ढंग से जीने दो।",
+        "es": "Soy yo el que va a morir cuando me llegue la hora, así que déjenme vivir mi vida como yo quiera.",
+        "fr": "C'est moi qui mourrai quand mon heure viendra, alors laissez-moi vivre ma vie comme je l'entends.",
+        "de": "Ich bin derjenige, der sterben muss, wenn meine Zeit gekommen ist — also lasst mich mein Leben so leben, wie ich es will.",
+        "ja": "死ぬときに死ぬのはこの俺だ。だから俺の人生は俺の好きなように生きさせてくれ。",
+        "zh-CN": "到时候要死的人是我，所以让我按自己想要的方式活。",
+        "ar": "أنا من سيموت عندما يحين أجلي، فدعوني أعش حياتي كما أريد.",
+        "ru": "Когда придёт мой час, умирать буду я — так дайте мне прожить мою жизнь так, как я хочу.",
+        "pt": "Sou eu que vou morrer quando chegar a minha hora, então deixem-me viver a minha vida do jeito que eu quiser."
+      }
     },
     {
       "quote": "It takes courage to grow up and become who you really are.",
       "author": "E.E. Cummings",
-      "translations": {}
+      "translations": {
+        "it": "Ci vuole coraggio per crescere e diventare chi sei veramente.",
+        "id": "Butuh keberanian untuk tumbuh dewasa dan menjadi dirimu yang sebenarnya.",
+        "fil": "Kailangan ng tapang para lumaki at maging kung sino ka talaga.",
+        "hi": "बड़ा होकर वही बनना जो आप सच में हैं — इसके लिए साहस चाहिए।",
+        "es": "Se necesita valor para crecer y convertirte en quien realmente eres.",
+        "fr": "Il faut du courage pour grandir et devenir qui l'on est vraiment.",
+        "de": "Es braucht Mut, erwachsen zu werden und der zu sein, der man wirklich ist.",
+        "ja": "大人になり、本当の自分になるには勇気がいる。",
+        "zh-CN": "长大并成为真正的自己，需要勇气。",
+        "ar": "يتطلب الأمر شجاعة أن تكبر وتصبح من أنت حقاً.",
+        "ru": "Нужна смелость, чтобы вырасти и стать тем, кто ты есть на самом деле.",
+        "pt": "É preciso coragem para crescer e se tornar quem você realmente é."
+      }
     },
     {
       "quote": "But better to get hurt by the truth than comforted with a lie.",
       "author": "Khaled Hosseini",
-      "translations": {}
+      "translations": {
+        "it": "Meglio essere feriti dalla verità che consolati da una bugia.",
+        "id": "Lebih baik terluka oleh kebenaran daripada dihibur oleh kebohongan.",
+        "fil": "Mas mabuting masaktan ng katotohanan kaysa aliwin ng kasinungalingan.",
+        "hi": "झूठ से तसल्ली पाने से बेहतर है सच से चोट खाना।",
+        "es": "Es mejor que la verdad te hiera a que una mentira te consuele.",
+        "fr": "Mieux vaut être blessé par la vérité que consolé par un mensonge.",
+        "de": "Besser von der Wahrheit verletzt als von einer Lüge getröstet werden.",
+        "ja": "嘘に慰められるより、真実に傷つけられる方がいい。",
+        "zh-CN": "宁可被真相刺痛，也不要被谎言安慰。",
+        "ar": "أن تجرحك الحقيقة خير من أن تواسيك كذبة.",
+        "ru": "Лучше раниться о правду, чем утешаться ложью.",
+        "pt": "Melhor se machucar com a verdade do que se consolar com uma mentira."
+      }
     },
     {
       "quote": "You never really understand a person until you consider things from his point of view... Until you climb inside of his skin and walk around in it.",
       "author": "Harper Lee",
-      "translations": {}
+      "translations": {
+        "it": "Non capisci davvero una persona finché non consideri le cose dal suo punto di vista, finché non entri nella sua pelle e ci cammini dentro.",
+        "id": "Kamu tidak akan benar-benar memahami seseorang sampai kamu melihat segala sesuatu dari sudut pandangnya — sampai kamu masuk ke dalam kulitnya dan berjalan dengannya.",
+        "fil": "Hindi mo lubos na mauunawaan ang isang tao hangga't hindi mo tinitingnan ang mga bagay mula sa kanyang pananaw — hangga't hindi ka pumapasok sa kanyang katawan at naglalakad dito.",
+        "hi": "किसी को सच में समझने के लिए चीज़ों को उसकी नज़र से देखना पड़ता है — उसकी जगह खड़े होकर चलना पड़ता है।",
+        "es": "Nunca entiendes realmente a una persona hasta que consideras las cosas desde su punto de vista... hasta que te metes en su piel y caminas con ella.",
+        "fr": "On ne comprend jamais vraiment une personne avant de considérer les choses de son point de vue... avant de se glisser dans sa peau et d'y marcher.",
+        "de": "Man versteht einen Menschen erst wirklich, wenn man die Dinge aus seiner Sicht betrachtet — wenn man in seine Haut schlüpft und darin umhergeht.",
+        "ja": "相手の立場に立って物事を考え、その皮膚の中に入って歩き回ってみるまで、人を本当に理解することはできない。",
+        "zh-CN": "除非你站在对方的角度看问题——钻进他的皮肤里走一走——否则你永远无法真正理解一个人。",
+        "ar": "لن تفهم إنساناً حقاً حتى تنظر إلى الأمور من وجهة نظره، حتى تدخل في جلده وتمشي فيه.",
+        "ru": "Никогда не поймёшь человека по-настоящему, пока не взглянешь на вещи с его точки зрения — пока не влезешь в его шкуру и не походишь в ней.",
+        "pt": "Você nunca entende realmente uma pessoa até considerar as coisas do ponto de vista dela... até entrar na pele dela e caminhar dentro dela."
+      }
     },
     {
       "quote": "You have to write the book that wants to be written. And if the book will be too difficult for grown-ups, then you write it for children.",
       "author": "Madeleine L'Engle",
-      "translations": {}
+      "translations": {
+        "it": "Devi scrivere il libro che chiede di essere scritto. E se il libro è troppo difficile per gli adulti, allora lo scrivi per i bambini.",
+        "id": "Kamu harus menulis buku yang ingin ditulis. Dan jika buku itu terlalu sulit untuk orang dewasa, tulislah untuk anak-anak.",
+        "fil": "Isulat mo ang aklat na nagnanais maisulat. At kung masyadong mahirap ito para sa mga matatanda, isulat mo ito para sa mga bata.",
+        "hi": "वही किताब लिखिए जो लिखी जाना चाहती है। और अगर वह बड़ों के लिए बहुत कठिन हो, तो उसे बच्चों के लिए लिख दीजिए।",
+        "es": "Tienes que escribir el libro que quiere ser escrito. Y si el libro es demasiado difícil para los adultos, entonces lo escribes para los niños.",
+        "fr": "Il faut écrire le livre qui demande à être écrit. Et si ce livre est trop difficile pour les adultes, alors on l'écrit pour les enfants.",
+        "de": "Du musst das Buch schreiben, das geschrieben werden will. Und wenn es für Erwachsene zu schwierig ist, dann schreibst du es für Kinder.",
+        "ja": "書かれたがっている本を書きなさい。それが大人には難しすぎるなら、子どもたちのために書けばいい。",
+        "zh-CN": "你必须写那本渴望被写出来的书。如果它对大人来说太难，那就写给孩子们。",
+        "ar": "عليك أن تكتب الكتاب الذي يريد أن يُكتب. وإن كان أصعب من أن يفهمه الكبار، فاكتبه للأطفال.",
+        "ru": "Нужно писать ту книгу, которая просится быть написанной. А если она слишком сложна для взрослых — пиши её для детей.",
+        "pt": "Você tem que escrever o livro que quer ser escrito. E se o livro for difícil demais para os adultos, escreva-o para as crianças."
+      }
     },
     {
       "quote": "Never tell the truth to people who are not worthy of it.",
       "author": "Mark Twain",
-      "translations": {}
+      "translations": {
+        "it": "Non dire mai la verità a chi non ne è degno.",
+        "id": "Jangan pernah mengatakan kebenaran kepada orang yang tidak pantas menerimanya.",
+        "fil": "Huwag mong sabihin ang katotohanan sa mga taong hindi karapat-dapat dito.",
+        "hi": "उन लोगों से कभी सच मत कहिए जो उसके योग्य नहीं हैं।",
+        "es": "Nunca digas la verdad a quien no es digno de ella.",
+        "fr": "Ne dis jamais la vérité à ceux qui n'en sont pas dignes.",
+        "de": "Sag niemals die Wahrheit denen, die ihrer nicht würdig sind.",
+        "ja": "真実に値しない者に、真実を語ってはならない。",
+        "zh-CN": "永远不要把真话讲给不配听的人。",
+        "ar": "لا تقل الحقيقة لمن لا يستحقها.",
+        "ru": "Никогда не говори правду тем, кто её не достоин.",
+        "pt": "Nunca diga a verdade a quem não é digno dela."
+      }
     },
     {
       "quote": "A person's a person, no matter how small.",
       "author": "Dr. Seuss",
-      "translations": {}
+      "translations": {
+        "it": "Una persona è una persona, non importa quanto piccola.",
+        "id": "Manusia tetaplah manusia, sekecil apa pun dia.",
+        "fil": "Ang tao ay tao, gaano man siya kaliit.",
+        "hi": "इंसान इंसान है, चाहे वह कितना भी छोटा क्यों न हो।",
+        "es": "Una persona es una persona, por pequeña que sea.",
+        "fr": "Une personne est une personne, aussi petite soit-elle.",
+        "de": "Ein Mensch ist ein Mensch, egal wie klein.",
+        "ja": "どんなに小さくても、人は人だ。",
+        "zh-CN": "人就是人，无论多么渺小。",
+        "ar": "الإنسان إنسان مهما كان صغيراً.",
+        "ru": "Человек есть человек, каким бы маленьким он ни был.",
+        "pt": "Uma pessoa é uma pessoa, por menor que seja."
+      }
     },
     {
-      "quote": "... a mind needs books as a sword needs a whetstone, if it is to keep its edge.",
+      "quote": "A mind needs books as a sword needs a whetstone, if it is to keep its edge.",
       "author": "George R.R. Martin",
-      "translations": {}
+      "translations": {
+        "it": "La mente ha bisogno dei libri come una spada ha bisogno della cote, se vuole mantenere il suo filo.",
+        "id": "Pikiran membutuhkan buku seperti pedang membutuhkan batu asah, agar tetap tajam.",
+        "fil": "Kailangan ng isipan ang mga aklat gaya ng espada na nangangailangan ng hasaan, upang manatiling matalas.",
+        "hi": "जैसे तलवार को धार के लिए सान चाहिए, वैसे ही दिमाग़ को तेज़ रहने के लिए किताबें चाहिए।",
+        "es": "La mente necesita los libros como la espada necesita la piedra de afilar, si quiere conservar su filo.",
+        "fr": "L'esprit a besoin des livres comme l'épée a besoin de la pierre à aiguiser, pour garder son tranchant.",
+        "de": "Der Geist braucht Bücher wie das Schwert den Schleifstein, wenn er scharf bleiben soll.",
+        "ja": "剣に砥石が要るように、心には本が要る。切れ味を保ちたければ。",
+        "zh-CN": "剑要保持锋利需要磨刀石，头脑要保持敏锐需要书籍。",
+        "ar": "العقل يحتاج إلى الكتب كما يحتاج السيف إلى المسنّ، إن أراد أن يحافظ على حدّه.",
+        "ru": "Уму нужны книги, как мечу — точильный камень, если он хочет оставаться острым.",
+        "pt": "A mente precisa dos livros como a espada precisa da pedra de amolar, se quiser manter o fio."
+      }
     },
     {
       "quote": "Anyone who has never made a mistake has never tried anything new.",
       "author": "Albert Einstein",
-      "translations": {}
+      "translations": {
+        "it": "Chi non ha mai commesso un errore non ha mai provato niente di nuovo.",
+        "id": "Orang yang tidak pernah membuat kesalahan tidak pernah mencoba sesuatu yang baru.",
+        "fil": "Ang taong hindi pa nagkakamali kailanman ay hindi pa sumusubok ng bago.",
+        "hi": "जिसने कभी ग़लती नहीं की, उसने कभी कुछ नया आज़माया ही नहीं।",
+        "es": "Quien nunca ha cometido un error nunca ha intentado nada nuevo.",
+        "fr": "Celui qui n'a jamais commis d'erreur n'a jamais rien tenté de nouveau.",
+        "de": "Wer noch nie einen Fehler gemacht hat, hat noch nie etwas Neues ausprobiert.",
+        "ja": "一度も失敗したことのない人は、新しいことに挑戦したことがない人だ。",
+        "zh-CN": "从未犯过错的人，从未尝试过新事物。",
+        "ar": "من لم يخطئ قط، لم يجرب شيئاً جديداً قط.",
+        "ru": "Тот, кто никогда не ошибался, никогда не пробовал ничего нового.",
+        "pt": "Quem nunca cometeu um erro nunca tentou nada de novo."
+      }
     },
     {
       "quote": "A lady's imagination is very rapid; it jumps from admiration to love, from love to matrimony in a moment.",
       "author": "Jane Austen",
-      "translations": {}
+      "translations": {
+        "it": "L'immaginazione di una donna è rapidissima: salta dall'ammirazione all'amore, e dall'amore al matrimonio, in un attimo.",
+        "id": "Imajinasi seorang wanita sangat cepat; dalam sekejap ia melompat dari kekaguman ke cinta, dan dari cinta ke pernikahan.",
+        "fil": "Napakabilis ng imahinasyon ng isang babae; mula paghanga ay agad itong tumatalon sa pag-ibig, at mula pag-ibig ay sa kasal, sa isang iglap.",
+        "hi": "स्त्री की कल्पना बहुत तेज़ दौड़ती है — पल भर में प्रशंसा से प्रेम तक, और प्रेम से विवाह तक पहुँच जाती है।",
+        "es": "La imaginación de una dama es muy rápida; salta de la admiración al amor y del amor al matrimonio en un momento.",
+        "fr": "L'imagination d'une femme est très rapide : elle passe en un instant de l'admiration à l'amour, et de l'amour au mariage.",
+        "de": "Die Fantasie einer Dame ist sehr schnell; sie springt in einem Augenblick von Bewunderung zu Liebe, von Liebe zur Ehe.",
+        "ja": "女性の想像力は実にすばやい。憧れから恋へ、恋から結婚へと、一瞬で飛躍する。",
+        "zh-CN": "女士的想象力非常敏捷，转瞬之间便从倾慕跳到爱情，又从爱情跳到婚姻。",
+        "ar": "خيال المرأة سريع جداً؛ يقفز من الإعجاب إلى الحب، ومن الحب إلى الزواج في لحظة.",
+        "ru": "Воображение женщины очень стремительно: оно в один миг перескакивает от восхищения к любви и от любви к замужеству.",
+        "pt": "A imaginação de uma dama é muito rápida; salta da admiração ao amor e do amor ao casamento em um instante."
+      }
     },
     {
       "quote": "Some day you will be old enough to start reading fairy tales again.",
-      "author": "C.S. Lewis",
-      "translations": {}
-    },
-    {
-      "quote": "We are not necessarily doubting that God will do the best for us; we are wondering how painful the best will turn out to be.",
       "author": "C.S. Lewis",
       "translations": {}
     },
@@ -850,16 +1095,6 @@
     {
       "quote": "A lie can travel half way around the world while the truth is putting on its shoes.",
       "author": "Mark Twain",
-      "translations": {}
-    },
-    {
-      "quote": "I believe in Christianity as I believe that the sun has risen: not only because I see it, but because by it I see everything else.",
-      "author": "C.S. Lewis",
-      "translations": {}
-    },
-    {
-      "quote": "If I had a flower for every time I thought of you...I could walk through my garden forever.",
-      "author": "Alfred Tennyson",
       "translations": {}
     },
     {
@@ -878,13 +1113,8 @@
       "translations": {}
     },
     {
-      "quote": "The reason I talk to myself is because I™m the only one whose answers I accept.",
+      "quote": "The reason I talk to myself is because I'm the only one whose answers I accept.",
       "author": "George Carlin",
-      "translations": {}
-    },
-    {
-      "quote": "You may say I'm a dreamer, but I'm not the only one. I hope someday you'll join us. And the world will live as one.",
-      "author": "John Lennon",
       "translations": {}
     },
     {
@@ -898,17 +1128,12 @@
       "translations": {}
     },
     {
-      "quote": "˛Classic˛ - a book which people praise and don't read.",
+      "quote": "'Classic' — a book which people praise and don't read.",
       "author": "Mark Twain",
       "translations": {}
     },
     {
-      "quote": "You don™t forget the face of the person who was your last hope.",
-      "author": "Suzanne Collins",
-      "translations": {}
-    },
-    {
-      "quote": "Remember, we're madly in love, so it's all right to kiss me anytime you feel like it.",
+      "quote": "You don't forget the face of the person who was your last hope.",
       "author": "Suzanne Collins",
       "translations": {}
     },
@@ -963,11 +1188,6 @@
       "translations": {}
     },
     {
-      "quote": "He's like a drug for you, Bella.",
-      "author": "Stephenie Meyer",
-      "translations": {}
-    },
-    {
       "quote": "There is no friend as loyal as a book.",
       "author": "Ernest Hemingway",
       "translations": {}
@@ -998,23 +1218,8 @@
       "translations": {}
     },
     {
-      "quote": "If you can make a woman laugh, you can make her do anything.",
-      "author": "Marilyn Monroe",
-      "translations": {}
-    },
-    {
       "quote": "Life is like riding a bicycle. To keep your balance, you must keep moving.",
       "author": "Albert Einstein",
-      "translations": {}
-    },
-    {
-      "quote": "The real lover is the man who can thrill you by kissing your forehead or smiling into your eyes or just staring into space.",
-      "author": "Marilyn Monroe",
-      "translations": {}
-    },
-    {
-      "quote": "A wise girl kisses but doesn't love, listens but doesn't believe, and leaves before she is left.",
-      "author": "Marilyn Monroe",
       "translations": {}
     },
     {
@@ -1093,11 +1298,6 @@
       "translations": {}
     },
     {
-      "quote": "Anyone who thinks sitting in church can make you a Christian must also think that sitting in a garage can make you a car.",
-      "author": "Garrison Keillor",
-      "translations": {}
-    },
-    {
       "quote": "Beauty is in the eye of the beholder and it may be necessary from time to time to give a stupid or misinformed beholder a black eye.",
       "author": "Jim Henson",
       "translations": {}
@@ -1135,11 +1335,6 @@
     {
       "quote": "If you can't explain it to a six year old, you don't understand it yourself.",
       "author": "Albert Einstein",
-      "translations": {}
-    },
-    {
-      "quote": "You may not be her first, her last, or her only. She loved before she may love again. But if she loves you now, what else matters? She's not perfectyou aren't either",
-      "author": "and the two of you may never be perfect together but if she can make you laugh",
       "translations": {}
     },
     {
