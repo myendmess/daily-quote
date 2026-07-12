@@ -27,7 +27,7 @@ _UNSAFE = re.compile(r"[<>\x00-\x08\x0b\x0c\x0e-\x1f\x7f]")
 
 BASE_HASHTAGS = "#motivation #quotes #shorts #daily #inspiration"
 BASE_TAGS = ["motivation", "quotes", "shorts", "daily", "inspiration"]
-TAGS_CHAR_BUDGET = 450  # YouTube caps the combined tag list at 500 chars
+TAGS_CHAR_BUDGET = 470  # YouTube caps tags at 500 chars BY ITS OWN COUNTING (see budget_tags)
 
 
 def sanitize(text):
@@ -159,16 +159,37 @@ def post_cta_comment(youtube, video_id):
 
 
 def budget_tags(base, extra):
-    """Base tags first, then localized ones while the total stays under budget."""
+    """Base tags first, then localized ones while the total stays under budget.
+
+    YouTube's 500-char cap uses its own accounting (learned from a live
+    invalidTags 400): commas between tags count, and any tag containing a
+    space is treated as quoted — the two quote marks count too. Model that
+    exactly, or a long multilingual tag list sails past 500 while a plain
+    len() sum says it's fine."""
     tags, used = [], 0
     for t in base + extra:
         if t in tags:
             continue
-        if used + len(t) > TAGS_CHAR_BUDGET:
+        cost = len(t) + (2 if " " in t else 0) + (1 if tags else 0)
+        if used + cost > TAGS_CHAR_BUDGET:
             break
         tags.append(t)
-        used += len(t)
+        used += cost
     return tags
+
+
+def insert_video(youtube, part, body):
+    request = youtube.videos().insert(
+        part=part,
+        body=body,
+        media_body=MediaFileUpload("out.mp4", chunksize=-1, resumable=True, mimetype="video/mp4"),
+    )
+    # Resumable uploads must be driven with next_chunk() (the official YouTube pattern),
+    # not execute(). chunksize=-1 sends the whole file in a single chunk.
+    response = None
+    while response is None:
+        _status, response = request.next_chunk()
+    return response["id"]
 
 
 def main():
@@ -220,17 +241,16 @@ def main():
         print(f"Localizations: {', '.join(localizations)}")
 
     print("Uploading video...")
-    request = youtube.videos().insert(
-        part=part,
-        body=body,
-        media_body=MediaFileUpload("out.mp4", chunksize=-1, resumable=True, mimetype="video/mp4"),
-    )
-    # Resumable uploads must be driven with next_chunk() (the official YouTube pattern),
-    # not execute(). chunksize=-1 sends the whole file in a single chunk.
-    response = None
-    while response is None:
-        _status, response = request.next_chunk()
-    video_id = response["id"]
+    try:
+        video_id = insert_video(youtube, part, body)
+    except Exception as e:
+        # Never lose the daily upload to metadata trimmings: if YouTube still
+        # rejects the tag list, retry once with the base tags only.
+        if "invalidTags" not in str(e):
+            raise
+        print("Tags rejected by YouTube — retrying with base tags only.")
+        body["snippet"]["tags"] = list(BASE_TAGS)
+        video_id = insert_video(youtube, part, body)
     print(f"Uploaded: https://youtu.be/{video_id}")
 
     youtube.playlistItems().insert(
