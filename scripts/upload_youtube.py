@@ -11,11 +11,13 @@ their own language. Localization is strictly optional — any problem with it
 falls back to the plain English upload.
 
 The title is prefixed with an incrementing Japanese day counter (一日, 二日, …)
-derived from the number of videos already in the playlist.
+derived deterministically from the date (bank days since epoch + DAY_OFFSET) —
+never from the playlist, whose count drifts when deleted videos leave ghosts.
 """
 import json
 import os
 import re
+from datetime import date, datetime, timezone
 
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
@@ -59,11 +61,22 @@ def to_kanji(n):
     return "".join(reversed(parts))
 
 
-def playlist_total(youtube, playlist_id):
-    resp = youtube.playlistItems().list(
-        part="id", playlistId=playlist_id, maxResults=1
-    ).execute()
-    return resp.get("pageInfo", {}).get("totalResults", 0)
+DAY_OFFSET = 16  # continues the published sequence: bank day 1 (2026-07-13) was 十七日
+
+
+def day_number(today=None):
+    """Deterministic day counter: bank days since epoch + DAY_OFFSET.
+
+    Was playlistItems totalResults + 1, which drifted: deleting a video
+    leaves an unavailable ghost item that still counts, so the number kept
+    climbing even as videos were removed. Date-based numbering cannot
+    drift and needs no API call. A same-day re-run reuses the same number
+    by design — the number now literally means "day"."""
+    with open("assets/quotes.json", encoding="utf-8") as f:
+        epoch = date.fromisoformat(json.load(f)["epoch"])
+    if today is None:
+        today = datetime.now(timezone.utc).date()
+    return max(0, (today - epoch).days) + DAY_OFFSET
 
 
 def music_credit():
@@ -214,7 +227,7 @@ def main():
     youtube = build("youtube", "v3", credentials=creds)
 
     playlist_id = os.environ["YT_PLAYLIST_ID"]
-    day = playlist_total(youtube, playlist_id) + 1
+    day = day_number()
     counter = f"{to_kanji(day)}日"
     print(f"Day {day} -> {counter}")
 

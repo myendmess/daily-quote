@@ -29,6 +29,7 @@ New music can go on the landing page (Spotify embed), into the daily-Short rotat
 - **Website — changing the featured track** (top card): edit `featured` in `assets/music.json`.
 - **Shorts rotation:** drop the `.mp3` into `assets/music/` *only if* it should score Shorts — `make_video.sh` picks a random `.mp3` from that folder each day. Then add an `assets/music.json` `tracks` entry keyed by the **exact filename** (`name`, `artist`, optional `spotify_track_id`/`youtube_id`) so the Short's description credits it.
 - **Start mid-song:** optional `"start_at"` (seconds) in a track's entry makes the Short's audio begin there — e.g. Ash & Blade uses `159` (= 2:39).
+- **Sound attribution on Shorts** can't be set through the upload API — YouTube attaches it automatically once Content ID matches the audio against the delivered artist catalog (DistroKid → "YouTube Music + Content ID" delivery). Use the released master in `assets/music/` and give new releases a few days to propagate.
 
 ### Adding a new Short background
 
