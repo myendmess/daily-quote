@@ -6,6 +6,12 @@ Every quote ever published by the [daily pipeline](README.md) — one per day, n
      first "## " heading below. Keep every heading in this intro at "#" level
      and edit entries only to fix mistakes — order is the publication record. -->
 
+## 2026-07-18
+
+> Do what you can, with what you have, where you are.
+
+— Theodore Roosevelt
+
 ## 2026-07-17
 
 > The secret of getting ahead is getting started.
