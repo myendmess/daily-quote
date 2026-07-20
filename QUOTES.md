@@ -6,6 +6,12 @@ Every quote ever published by the [daily pipeline](README.md) — one per day, n
      first "## " heading below. Keep every heading in this intro at "#" level
      and edit entries only to fix mistakes — order is the publication record. -->
 
+## 2026-07-20
+
+> The man who moves a mountain begins by carrying away small stones.
+
+— Confucius
+
 ## 2026-07-19
 
 > It always seems impossible until it is done.
